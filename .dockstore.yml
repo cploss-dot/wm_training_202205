@@ -1,0 +1,20 @@
+version: 1.2
+workflows:
+  - name: hworld_workflow
+    subclass: WDL
+    primaryDescriptorPath: /wdl/workflows/wf_hworld.wdl
+  - name: scan_trim_workflow
+    subclass: WDL
+    primaryDescriptorPath: /wdl/workflows/wf_scan_trim.wdl
+  - name: foobar_workflow
+    subclass: WDL
+    primaryDescriptorPath: /wdl/workflows/wf_foobar.wdl
+  - name: template_workflow
+    subclass: WDL
+    primaryDescriptorPath: /wdl/workflows/wf_template.wdl
+  - name: fastq_scan_workflow
+    subclass: WDL
+    primaryDescriptorPath: /wdl/workflows/wf_fastq_scan.wdl
+  - name: nextflow
+    subclass: NFL
+    primaryDescriptorPath: /nextflow/exercise_04/nextflow.config
