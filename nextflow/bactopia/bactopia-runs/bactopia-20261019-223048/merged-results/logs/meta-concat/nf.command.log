@@ -1,0 +1,10 @@
+Unable to find image 'quay.io/biocontainers/csvtk:0.31.0--h9ee0642_0' locally
+0.31.0--h9ee0642_0: Pulling from biocontainers/csvtk
+0cacab098358: Already exists
+bd9ddc54bea9: Already exists
+104253bb8920: Pulling fs layer
+104253bb8920: Verifying Checksum
+104253bb8920: Download complete
+104253bb8920: Pull complete
+Digest: sha256:e73ae7d1626058e06af6023e70945664ee08f55edf2f41fb9aa151b9a6a3f954
+Status: Downloaded newer image for quay.io/biocontainers/csvtk:0.31.0--h9ee0642_0

@@ -1,0 +1,363 @@
+digraph "bactopiadag" {
+rankdir=TB;
+v0 [shape=point,label="",fixedsize=true,width=0.1,xlabel="channel.fromList"];
+v1 [shape=point];
+v0 -> v1;
+
+v2 [label="DATASETS:DATASETS_MODULE"];
+v3 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v2 -> v3 [label="$out"];
+
+v3 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v58 [label="AMRFINDERPLUS:AMRFINDERPLUS_RUN"];
+v3 -> v58;
+
+v2 [label="DATASETS:DATASETS_MODULE"];
+v4 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v2 -> v4;
+
+v4 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v67 [label="MLST:MLST_MODULE"];
+v4 -> v67;
+
+v2 [label="DATASETS:DATASETS_MODULE"];
+v5 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v2 -> v5;
+
+v5 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v43 [label="SKETCHER:SKETCHER_MODULE"];
+v5 -> v43;
+
+v2 [label="DATASETS:DATASETS_MODULE"];
+v6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v2 -> v6;
+
+v6 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v43 [label="SKETCHER:SKETCHER_MODULE"];
+v6 -> v43;
+
+v7 [shape=point,label="",fixedsize=true,width=0.1];
+v8 [label="GATHER:GATHER_MODULE"];
+v7 -> v8;
+
+v8 [label="GATHER:GATHER_MODULE"];
+v9 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v8 -> v9 [label="$out"];
+
+v9 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v10 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v9 -> v10;
+
+v10 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v11 [shape=point];
+v10 -> v11;
+
+v12 [shape=point,label="",fixedsize=true,width=0.1];
+v15 [label="GATHER:CSVTK_CONCAT"];
+v12 -> v15;
+
+v13 [shape=point,label="",fixedsize=true,width=0.1];
+v15 [label="GATHER:CSVTK_CONCAT"];
+v13 -> v15 [label="in_format"];
+
+v14 [shape=point,label="",fixedsize=true,width=0.1];
+v15 [label="GATHER:CSVTK_CONCAT"];
+v14 -> v15 [label="out_format"];
+
+v15 [label="GATHER:CSVTK_CONCAT"];
+v81 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v15 -> v81 [label="$out"];
+
+v8 [label="GATHER:GATHER_MODULE"];
+v16 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v8 -> v16;
+
+v16 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v16 -> v17;
+
+v17 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v18 [shape=point];
+v17 -> v18;
+
+v19 [shape=point,label="",fixedsize=true,width=0.1];
+v22 [label="QC:QC_MODULE"];
+v19 -> v22;
+
+v20 [shape=point,label="",fixedsize=true,width=0.1];
+v22 [label="QC:QC_MODULE"];
+v20 -> v22 [label="adapters"];
+
+v21 [shape=point,label="",fixedsize=true,width=0.1];
+v22 [label="QC:QC_MODULE"];
+v21 -> v22 [label="phix"];
+
+v22 [label="QC:QC_MODULE"];
+v23 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v22 -> v23 [label="$out"];
+
+v23 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v24 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v23 -> v24;
+
+v24 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v25 [shape=point];
+v24 -> v25;
+
+v26 [shape=point,label="",fixedsize=true,width=0.1,xlabel="channel.empty"];
+v81 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v26 -> v81;
+
+v27 [shape=point,label="",fixedsize=true,width=0.1];
+v28 [label="ASSEMBLER:ASSEMBLER_MODULE"];
+v27 -> v28;
+
+v28 [label="ASSEMBLER:ASSEMBLER_MODULE"];
+v29 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v28 -> v29 [label="$out"];
+
+v29 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v30 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v29 -> v30;
+
+v30 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v31 [shape=point];
+v30 -> v31;
+
+v32 [shape=point,label="",fixedsize=true,width=0.1];
+v35 [label="ASSEMBLER:CSVTK_CONCAT"];
+v32 -> v35;
+
+v33 [shape=point,label="",fixedsize=true,width=0.1];
+v35 [label="ASSEMBLER:CSVTK_CONCAT"];
+v33 -> v35 [label="in_format"];
+
+v34 [shape=point,label="",fixedsize=true,width=0.1];
+v35 [label="ASSEMBLER:CSVTK_CONCAT"];
+v34 -> v35 [label="out_format"];
+
+v35 [label="ASSEMBLER:CSVTK_CONCAT"];
+v82 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v35 -> v82 [label="$out"];
+
+v28 [label="ASSEMBLER:ASSEMBLER_MODULE"];
+v36 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v28 -> v36;
+
+v36 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v37 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v36 -> v37;
+
+v37 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v38 [shape=point];
+v37 -> v38;
+
+v28 [label="ASSEMBLER:ASSEMBLER_MODULE"];
+v39 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v28 -> v39;
+
+v39 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v40 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v39 -> v40;
+
+v40 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v41 [shape=point];
+v40 -> v41;
+
+v42 [shape=point,label="",fixedsize=true,width=0.1];
+v43 [label="SKETCHER:SKETCHER_MODULE"];
+v42 -> v43;
+
+v43 [label="SKETCHER:SKETCHER_MODULE"];
+v77 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v43 -> v77 [label="$out"];
+
+v44 [shape=point,label="",fixedsize=true,width=0.1,xlabel="channel.empty"];
+v83 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v44 -> v83;
+
+v45 [shape=point,label="",fixedsize=true,width=0.1,xlabel="channel.empty"];
+v46 [shape=point];
+v45 -> v46;
+
+v47 [shape=point,label="",fixedsize=true,width=0.1];
+v50 [label="PROKKA:PROKKA_MODULE"];
+v47 -> v50;
+
+v48 [shape=point,label="",fixedsize=true,width=0.1];
+v50 [label="PROKKA:PROKKA_MODULE"];
+v48 -> v50 [label="proteins"];
+
+v49 [shape=point,label="",fixedsize=true,width=0.1];
+v50 [label="PROKKA:PROKKA_MODULE"];
+v49 -> v50 [label="prodigal_tf"];
+
+v50 [label="PROKKA:PROKKA_MODULE"];
+v51 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v50 -> v51 [label="$out"];
+
+v51 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v52 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v51 -> v52;
+
+v52 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="filter"];
+v53 [shape=point];
+v52 -> v53;
+
+v50 [label="PROKKA:PROKKA_MODULE"];
+v54 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v50 -> v54;
+
+v54 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="map"];
+v55 [shape=point];
+v54 -> v55;
+
+v56 [shape=point,label="",fixedsize=true,width=0.1,xlabel="channel.empty"];
+v84 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v56 -> v84;
+
+v57 [shape=point,label="",fixedsize=true,width=0.1];
+v58 [label="AMRFINDERPLUS:AMRFINDERPLUS_RUN"];
+v57 -> v58;
+
+v58 [label="AMRFINDERPLUS:AMRFINDERPLUS_RUN"];
+v59 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v58 -> v59 [label="$out"];
+
+v59 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v60 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v59 -> v60;
+
+v60 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v61 [shape=point];
+v60 -> v61;
+
+v62 [shape=point,label="",fixedsize=true,width=0.1];
+v65 [label="AMRFINDERPLUS:CSVTK_CONCAT"];
+v62 -> v65;
+
+v63 [shape=point,label="",fixedsize=true,width=0.1];
+v65 [label="AMRFINDERPLUS:CSVTK_CONCAT"];
+v63 -> v65 [label="in_format"];
+
+v64 [shape=point,label="",fixedsize=true,width=0.1];
+v65 [label="AMRFINDERPLUS:CSVTK_CONCAT"];
+v64 -> v65 [label="out_format"];
+
+v65 [label="AMRFINDERPLUS:CSVTK_CONCAT"];
+v85 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v65 -> v85 [label="$out"];
+
+v66 [shape=point,label="",fixedsize=true,width=0.1];
+v67 [label="MLST:MLST_MODULE"];
+v66 -> v67;
+
+v67 [label="MLST:MLST_MODULE"];
+v68 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v67 -> v68 [label="$out"];
+
+v68 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="collect"];
+v69 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v68 -> v69;
+
+v69 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v70 [shape=point];
+v69 -> v70;
+
+v71 [shape=point,label="",fixedsize=true,width=0.1];
+v74 [label="MLST:CSVTK_CONCAT"];
+v71 -> v74;
+
+v72 [shape=point,label="",fixedsize=true,width=0.1];
+v74 [label="MLST:CSVTK_CONCAT"];
+v72 -> v74 [label="in_format"];
+
+v73 [shape=point,label="",fixedsize=true,width=0.1];
+v74 [label="MLST:CSVTK_CONCAT"];
+v73 -> v74 [label="out_format"];
+
+v74 [label="MLST:CSVTK_CONCAT"];
+v86 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v74 -> v86 [label="$out"];
+
+v8 [label="GATHER:GATHER_MODULE"];
+v75 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v8 -> v75;
+
+v22 [label="QC:QC_MODULE"];
+v75 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v22 -> v75;
+
+v75 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v76 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v75 -> v76;
+
+v28 [label="ASSEMBLER:ASSEMBLER_MODULE"];
+v76 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v28 -> v76;
+
+v76 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v77 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v76 -> v77;
+
+v77 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v78 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v77 -> v78;
+
+v50 [label="PROKKA:PROKKA_MODULE"];
+v78 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v50 -> v78;
+
+v78 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v79 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v78 -> v79;
+
+v58 [label="AMRFINDERPLUS:AMRFINDERPLUS_RUN"];
+v79 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v58 -> v79;
+
+v79 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v80 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v79 -> v80;
+
+v67 [label="MLST:MLST_MODULE"];
+v80 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v67 -> v80;
+
+v80 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v87 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v80 -> v87;
+
+v81 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v82 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v81 -> v82;
+
+v82 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v83 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v82 -> v83;
+
+v83 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v84 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v83 -> v84;
+
+v84 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v85 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v84 -> v85;
+
+v85 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v86 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v85 -> v86;
+
+v86 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="mix"];
+v89 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v86 -> v89;
+
+v87 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v88 [shape=point];
+v87 -> v88;
+
+v89 [shape=circle,label="",fixedsize=true,width=0.1,xlabel="flatMap"];
+v90 [shape=point];
+v89 -> v90;
+
+}

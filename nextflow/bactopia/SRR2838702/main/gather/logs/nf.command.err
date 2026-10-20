@@ -1,0 +1,10 @@
+Unable to find image 'quay.io/biocontainers/bactopia-gather:1.2.0--hdfd78af_0' locally
+1.2.0--hdfd78af_0: Pulling from biocontainers/bactopia-gather
+0cacab098358: Already exists
+bd9ddc54bea9: Already exists
+38f63811f845: Pulling fs layer
+38f63811f845: Verifying Checksum
+38f63811f845: Download complete
+38f63811f845: Pull complete
+Digest: sha256:5e955dd03edfee9d788f7f1fcb4ddfc501c46ba0806c5e122acff0738fe682ad
+Status: Downloaded newer image for quay.io/biocontainers/bactopia-gather:1.2.0--hdfd78af_0

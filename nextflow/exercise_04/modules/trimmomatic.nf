@@ -8,7 +8,7 @@ process TRIMMOMATIC {
     cpus params.max_cpus
 
     // Copy outfiles to a directory with the value of meta.id
-    publishDir "${meta.id}-dsl2/", mode: 'copy'
+    publishDir path: { "${meta.id}-dsl2/" }, mode: 'copy'
 
     // Tag directive prints a string for the process
     tag "${meta.id}"

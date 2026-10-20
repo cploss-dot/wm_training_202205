@@ -1,0 +1,89 @@
+COLLECT_RESULTS:
+  drevalpy: 1.6.0
+  pandas: 2.3.3
+  python: 3.13.13
+CONSOLIDATE_RESULTS:
+  drevalpy: 1.6.0
+  pandas: 2.3.3
+  python: 3.13.13
+CV_SPLIT:
+  drevalpy: 1.6.0
+  numpy: 2.5.3
+  python: 3.13.13
+  sklearn: 1.9.1
+EVALUATE_FINAL:
+  drevalpy: 1.6.0
+  numpy: 2.5.3
+  pandas: 2.3.3
+  python: 3.13.13
+  scipy: 1.18.1
+  sklearn: 1.9.1
+EVALUATE_FIND_MAX:
+  drevalpy: 1.6.0
+  numpy: 2.5.3
+  pandas: 2.3.3
+  python: 3.13.13
+  scipy: 1.18.1
+  sklearn: 1.9.1
+  yaml: 6.0.3
+HPAM_SPLIT:
+  drevalpy: 1.6.0
+  python: 3.13.13
+  yaml: 6.0.3
+LOAD_CS_RESPONSE:
+  drevalpy: 1.6.0
+  pandas: 2.3.3
+  python: 3.13.13
+LOAD_RESPONSE:
+  drevalpy: 1.6.0
+  pandas: 2.3.3
+  python: 3.13.13
+MAKE_BASELINES:
+  drevalpy: 1.6.0
+  numpy: 2.5.3
+  pandas: 2.3.3
+  python: 3.13.13
+  pytorch_lightning: 2.6.6
+  sklearn: 1.9.1
+  torch: 2.14.0
+MAKE_MODELS:
+  drevalpy: 1.6.0
+  numpy: 2.5.3
+  pandas: 2.3.3
+  python: 3.13.13
+  pytorch_lightning: 2.6.6
+  sklearn: 1.9.1
+  torch: 2.14.0
+PREDICT_FULL:
+  drevalpy: 1.6.0
+  numpy: 2.5.3
+  pandas: 2.3.3
+  python: 3.13.13
+  pytorch_lightning: 2.6.6
+  sklearn: 1.9.1
+  torch: 2.14.0
+TRAIN_AND_PREDICT_CV:
+  drevalpy: 1.6.0
+  numpy: 2.5.3
+  pandas: 2.3.3
+  python: 3.13.13
+  pytorch_lightning: 2.6.6
+  sklearn: 1.9.1
+  torch: 2.14.0
+UNZIP_CS_RESPONSE:
+  7za: 16.02
+UNZIP_META:
+  7za: 16.02
+UNZIP_RESPONSE:
+  7za: 16.02
+VISUALIZE_RESULTS:
+  drevalpy: 1.6.0
+  matplotlib: 3.11.2
+  pandas: 2.3.3
+  python: 3.13.13
+  scikit_posthocs: 0.17.0
+  scipy: 1.18.1
+  sklearn: 1.9.1
+Workflow:
+    nf-core/drugresponseeval: v1.3.0-g6e420c1
+    Nextflow: 26.10.2

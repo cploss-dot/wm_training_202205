@@ -1,0 +1,33 @@
+Unable to find image 'quay.io/biocontainers/bactopia-sketcher:1.0.3--hdfd78af_0' locally
+1.0.3--hdfd78af_0: Pulling from biocontainers/bactopia-sketcher
+0cacab098358: Already exists
+bd9ddc54bea9: Already exists
+b7e9de64ce87: Pulling fs layer
+b7e9de64ce87: Verifying Checksum
+b7e9de64ce87: Download complete
+b7e9de64ce87: Pull complete
+Digest: sha256:1fb26e4e16875055bd544c9d13650373d02ca4f4ff2de321cbd9dcbc6003afda
+Status: Downloaded newer image for quay.io/biocontainers/bactopia-sketcher:1.0.3--hdfd78af_0
+Sketching from stdin...
+Writing to SRR2838702-k21.msh...
+Sketching from stdin...
+Writing to SRR2838702-k31.msh...
+[K
+== This is sourmash version 4.9.4. ==
+[K== Please cite Irber et. al (2024), doi:10.21105/joss.06830. ==
+
+[Kcomputing signatures for files: SRR2838702.fna.gz
+[KComputing a total of 1 signature(s) for each input.
+[K... reading sequences from SRR2838702.fna.gz
+[K... SRR2838702.fna.gz 80 sequences
+[Kcalculated 1 signature for 80 sequences taken from 1 files
+[Ksaved 1 signature(s) to 'SRR2838702.sig'
+Loading mash-refseq88.k21.msh...
+[K
+== This is sourmash version 4.9.4. ==
+[K== Please cite Irber et. al (2024), doi:10.21105/joss.06830. ==
+
+[K[K[K... loading database gtdb-rs207.genomic-reps.dna.k31.lca.json.gz[K[K[Kloaded 1 LCA databases. ksize=31, scaled=10000 moltype=DNA
+[Kfinding query signatures...
+[Koutputting classifications to -
+[K[K[K... classifying SRR2838702 (file 1 of 1)[K[K[Kclassified 1 signatures total

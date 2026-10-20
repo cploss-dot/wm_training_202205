@@ -1,16 +1,11 @@
 #!/usr/bin/env nextflow
+// deprecated now
 nextflow.enable.dsl = 2
 
 /*
 In this example we're going to mix Channels and Processes, but also highlight the FIFO nature
 of Channels. Meaning sometimes you don't get the order you expect.
 */
-
-// Create a channel of colored squares, but lets sort them
-my_square_ch = Channel.from( "red-square", "blue-square", "green-square" )
-
-// Create a channel of 3 random numbers
-my_sleep_ch = Channel.from( 1..10 ).randomSample( 3 )
 
 // A Process to convert squares to triangles
 process make_triangle {
@@ -56,6 +51,12 @@ process merge_shapes {
 }
 
 workflow {
+    // moved to workflow
+    // Create a channel of colored squares, but lets sort them
+    my_square_ch = Channel.from( "red-square", "blue-square", "green-square" )
+    // Create a channel of 3 random numbers
+    my_sleep_ch = Channel.from( 1..10 ).randomSample( 3 )
+
     // The expectation is squares and triangles will be grouped by color
     make_triangle(my_square_ch, my_sleep_ch)
 

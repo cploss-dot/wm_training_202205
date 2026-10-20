@@ -1,0 +1,5 @@
+	Hit	Number of reads	Length Covered	reference length	% covered	Number of variants	% accuracy
+0	ipaH_c	31	574	780	73.6	0.0	100.0
+1	ipaB	22	1015	1743	58.2	0.0	100.0
+2	SdProv_wzx	16	1017	1320	77.0	0.0	100.0
+3	SdProv_wzy	53	1104	1212	91.1	0.0	100.0

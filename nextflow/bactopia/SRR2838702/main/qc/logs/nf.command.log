@@ -1,0 +1,109 @@
+Unable to find image 'quay.io/biocontainers/bactopia-qc:1.0.4--hdfd78af_0' locally
+1.0.4--hdfd78af_0: Pulling from biocontainers/bactopia-qc
+0cacab098358: Already exists
+bd9ddc54bea9: Already exists
+be41a1f3e48a: Pulling fs layer
+be41a1f3e48a: Verifying Checksum
+be41a1f3e48a: Download complete
+be41a1f3e48a: Pull complete
+Digest: sha256:d0195c9f96ca515d3328973a653cb45b85d748295f7410909d37bbbb6011847b
+Status: Downloaded newer image for quay.io/biocontainers/bactopia-qc:1.0.4--hdfd78af_0
+Skipping error correction since fastp was used
+[2026-10-19T22:34:00Z INFO ] Two input files given. Assuming paired Illumina...
+[2026-10-19T22:34:00Z INFO ] Target number of bases to subsample to is: 35824200
+[2026-10-19T22:34:00Z INFO ] Gathering read lengths...
+[2026-10-19T22:34:00Z INFO ] Gathering read lengths for second input file...
+[2026-10-19T22:34:00Z INFO ] Both input files have the same number of reads (96680) 👍
+[2026-10-19T22:34:00Z INFO ] 96680 reads detected
+[2026-10-19T22:34:00Z INFO ] Input coverage is 53.90x
+[2026-10-19T22:34:00Z INFO ] Keeping 96680 reads from each input
+[2026-10-19T22:34:00Z WARN ] Requested coverage (100.00x) is not possible as the actual coverage is 53.90x - output will be the same as the input
+[2026-10-19T22:34:00Z INFO ] Done 🎉
+application/gzip
+application/gzip
+Started analysis of SRR2838702_R1-original.fastq.gz
+application/gzip
+application/gzip
+Approx 5% complete for SRR2838702_R1-original.fastq.gz
+Approx 10% complete for SRR2838702_R1-original.fastq.gz
+Approx 15% complete for SRR2838702_R1-original.fastq.gz
+Approx 20% complete for SRR2838702_R1-original.fastq.gz
+Approx 25% complete for SRR2838702_R1-original.fastq.gz
+Approx 30% complete for SRR2838702_R1-original.fastq.gz
+Started analysis of SRR2838702_R2-original.fastq.gz
+Approx 35% complete for SRR2838702_R1-original.fastq.gz
+Approx 5% complete for SRR2838702_R2-original.fastq.gz
+Approx 40% complete for SRR2838702_R1-original.fastq.gz
+Approx 10% complete for SRR2838702_R2-original.fastq.gz
+Approx 45% complete for SRR2838702_R1-original.fastq.gz
+Approx 15% complete for SRR2838702_R2-original.fastq.gz
+Approx 50% complete for SRR2838702_R1-original.fastq.gz
+Approx 20% complete for SRR2838702_R2-original.fastq.gz
+Approx 55% complete for SRR2838702_R1-original.fastq.gz
+Approx 25% complete for SRR2838702_R2-original.fastq.gz
+Approx 60% complete for SRR2838702_R1-original.fastq.gz
+Approx 30% complete for SRR2838702_R2-original.fastq.gz
+Approx 65% complete for SRR2838702_R1-original.fastq.gz
+Started analysis of SRR2838702_R1-final.fastq.gz
+Approx 35% complete for SRR2838702_R2-original.fastq.gz
+Approx 70% complete for SRR2838702_R1-original.fastq.gz
+Approx 5% complete for SRR2838702_R1-final.fastq.gz
+Approx 40% complete for SRR2838702_R2-original.fastq.gz
+Approx 75% complete for SRR2838702_R1-original.fastq.gz
+Approx 10% complete for SRR2838702_R1-final.fastq.gz
+Approx 80% complete for SRR2838702_R1-original.fastq.gz
+Approx 45% complete for SRR2838702_R2-original.fastq.gz
+Approx 15% complete for SRR2838702_R1-final.fastq.gz
+Approx 50% complete for SRR2838702_R2-original.fastq.gz
+Approx 85% complete for SRR2838702_R1-original.fastq.gz
+Approx 20% complete for SRR2838702_R1-final.fastq.gz
+Approx 55% complete for SRR2838702_R2-original.fastq.gz
+Approx 90% complete for SRR2838702_R1-original.fastq.gz
+Approx 25% complete for SRR2838702_R1-final.fastq.gz
+Approx 60% complete for SRR2838702_R2-original.fastq.gz
+Approx 95% complete for SRR2838702_R1-original.fastq.gz
+Approx 30% complete for SRR2838702_R1-final.fastq.gz
+Approx 65% complete for SRR2838702_R2-original.fastq.gz
+Analysis complete for SRR2838702_R1-original.fastq.gz
+Approx 35% complete for SRR2838702_R1-final.fastq.gz
+Started analysis of SRR2838702_R2-final.fastq.gz
+Approx 70% complete for SRR2838702_R2-original.fastq.gz
+Approx 40% complete for SRR2838702_R1-final.fastq.gz
+Approx 75% complete for SRR2838702_R2-original.fastq.gz
+Approx 5% complete for SRR2838702_R2-final.fastq.gz
+Approx 80% complete for SRR2838702_R2-original.fastq.gz
+Approx 45% complete for SRR2838702_R1-final.fastq.gz
+Approx 10% complete for SRR2838702_R2-final.fastq.gz
+Approx 85% complete for SRR2838702_R2-original.fastq.gz
+Approx 15% complete for SRR2838702_R2-final.fastq.gz
+Approx 50% complete for SRR2838702_R1-final.fastq.gz
+Approx 90% complete for SRR2838702_R2-original.fastq.gz
+Approx 55% complete for SRR2838702_R1-final.fastq.gz
+Approx 20% complete for SRR2838702_R2-final.fastq.gz
+Approx 95% complete for SRR2838702_R2-original.fastq.gz
+Approx 60% complete for SRR2838702_R1-final.fastq.gz
+Approx 25% complete for SRR2838702_R2-final.fastq.gz
+Analysis complete for SRR2838702_R2-original.fastq.gz
+Approx 65% complete for SRR2838702_R1-final.fastq.gz
+Approx 30% complete for SRR2838702_R2-final.fastq.gz
+Approx 35% complete for SRR2838702_R2-final.fastq.gz
+Approx 70% complete for SRR2838702_R1-final.fastq.gz
+Approx 40% complete for SRR2838702_R2-final.fastq.gz
+Approx 75% complete for SRR2838702_R1-final.fastq.gz
+Approx 45% complete for SRR2838702_R2-final.fastq.gz
+Approx 80% complete for SRR2838702_R1-final.fastq.gz
+Approx 50% complete for SRR2838702_R2-final.fastq.gz
+Approx 85% complete for SRR2838702_R1-final.fastq.gz
+Approx 55% complete for SRR2838702_R2-final.fastq.gz
+Approx 90% complete for SRR2838702_R1-final.fastq.gz
+Approx 60% complete for SRR2838702_R2-final.fastq.gz
+Approx 95% complete for SRR2838702_R1-final.fastq.gz
+Approx 65% complete for SRR2838702_R2-final.fastq.gz
+Analysis complete for SRR2838702_R1-final.fastq.gz
+Approx 70% complete for SRR2838702_R2-final.fastq.gz
+Approx 75% complete for SRR2838702_R2-final.fastq.gz
+Approx 80% complete for SRR2838702_R2-final.fastq.gz
+Approx 85% complete for SRR2838702_R2-final.fastq.gz
+Approx 90% complete for SRR2838702_R2-final.fastq.gz
+Approx 95% complete for SRR2838702_R2-final.fastq.gz
+Analysis complete for SRR2838702_R2-final.fastq.gz

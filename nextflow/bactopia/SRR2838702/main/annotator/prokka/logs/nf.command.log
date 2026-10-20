@@ -1,0 +1,217 @@
+Unable to find image 'quay.io/biocontainers/prokka:1.15.6--pl5321hdfd78af_0' locally
+1.15.6--pl5321hdfd78af_0: Pulling from biocontainers/prokka
+0cacab098358: Already exists
+bd9ddc54bea9: Already exists
+7f438bfff2f8: Pulling fs layer
+7f438bfff2f8: Verifying Checksum
+7f438bfff2f8: Download complete
+7f438bfff2f8: Pull complete
+Digest: sha256:c9186d3982809766a2ec36fdaec2c57b7c9d641e48587013f8f8fe14f5eb35fc
+Status: Downloaded newer image for quay.io/biocontainers/prokka:1.15.6--pl5321hdfd78af_0
+[22:42:37] This is prokka 1.15.6
+[22:42:37] Written by Torsten Seemann <torsten.seemann@gmail.com>
+[22:42:37] Homepage is https://github.com/tseemann/prokka
+[22:42:37] Local time is Mon Oct 19 22:42:37 2026
+[22:42:37] You are not telling me who you are!
+[22:42:37] Operating system is linux
+[22:42:37] You have BioPerl 1.7.8
+[22:42:37] System has 4 cores.
+[22:42:37] Will use maximum of 4 cores.
+[22:42:37] Annotating as >>> Bacteria <<<
+[22:42:37] Creating new output folder: SRR2838702
+[22:42:37] Running: mkdir -p SRR2838702
+[22:42:37] Using filename prefix: SRR2838702.XXX
+[22:42:37] Setting HMMER_NCPU=1
+[22:42:37] Writing log to: SRR2838702/SRR2838702.log
+[22:42:37] Command: /usr/local/bin/prokka --evalue 1e-09 --coverage 80 --centre Bactopia --cpus 4 --prefix SRR2838702 --locustag SRR2838702 --proteins proteins.faa staging/fna/SRR2838702.fna
+[22:42:37] Looking for 'aragorn' - found /usr/local/bin/aragorn
+[22:42:37] Determined aragorn version is v1.2 from 'ARAGORN v1.2.41 Dean Laslett'
+[22:42:37] Looking for 'barrnap' - found /usr/local/bin/barrnap
+[22:42:37] Determined barrnap version is v0.9 from 'barrnap 0.9'
+[22:42:37] Looking for 'blastp' - found /usr/local/bin/blastp
+[22:42:37] Determined blastp version is v2.16 from 'blastp: 2.16.0+'
+[22:42:37] Looking for 'cmpress' - found /usr/local/bin/cmpress
+[22:42:37] Determined cmpress version is v1.1 from '# INFERNAL 1.1.5 (Sep 2023)'
+[22:42:37] Looking for 'cmscan' - found /usr/local/bin/cmscan
+[22:42:37] Determined cmscan version is v1.1 from '# INFERNAL 1.1.5 (Sep 2023)'
+[22:42:37] Looking for 'egrep' - found /usr/bin/egrep
+[22:42:37] Looking for 'find' - found /usr/bin/find
+[22:42:37] Looking for 'grep' - found /usr/bin/grep
+[22:42:37] Looking for 'hmmpress' - found /usr/local/bin/hmmpress
+[22:42:37] Determined hmmpress version is v3.4 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[22:42:37] Looking for 'hmmscan' - found /usr/local/bin/hmmscan
+[22:42:37] Determined hmmscan version is v3.4 from '# HMMER 3.4 (Aug 2023); http://hmmer.org/'
+[22:42:37] Looking for 'java' - found /usr/local/bin/java
+[22:42:37] Looking for 'makeblastdb' - found /usr/local/bin/makeblastdb
+[22:42:37] Determined makeblastdb version is v2.16 from 'makeblastdb: 2.16.0+'
+[22:42:37] Looking for 'minced' - found /usr/local/bin/minced
+[22:42:37] Determined minced version is v4.2 from 'minced 0.4.2'
+[22:42:37] Looking for 'parallel' - found /usr/local/bin/parallel
+[22:42:38] Determined parallel version is 20251122 from 'GNU parallel 20251122'
+[22:42:38] Looking for 'prodigal' - found /usr/local/bin/prodigal
+[22:42:38] Determined prodigal version is v2.6 from 'Prodigal V2.6.3: February, 2016'
+[22:42:38] Looking for 'prokka-genbank_to_fasta_db' - found /usr/local/bin/prokka-genbank_to_fasta_db
+[22:42:38] Looking for 'sed' - found /usr/bin/sed
+[22:42:38] Looking for 'tbl2asn' - found /usr/local/bin/tbl2asn
+[22:42:38] Determined tbl2asn version is v25.7 from 'tbl2asn 25.7   arguments:'
+[22:42:38] Using genetic code table 11.
+[22:42:38] Loading and checking input file: staging/fna/SRR2838702.fna
+[22:42:38] Wrote 80 contigs totalling 159095 bp.
+[22:42:38] Predicting tRNAs and tmRNAs
+[22:42:38] Running: aragorn -l -gc11  -w SRR2838702\/SRR2838702\.fna
+[22:42:38] 1 tRNA-Ile [2263,2337] 35 (gat)
+[22:42:38] 1 tRNA-Arg [1767,1842] 36 (ccg)
+[22:42:38] 1 tRNA-Thr c[786,858] 34 (cgt)
+[22:42:38] 1 tRNA-Pro c[1983,2056] 35 (tgg)
+[22:42:38] 1 tRNA-Ser c[839,922] 35 (gct)
+[22:42:38] 1 tRNA-Asp c[869,942] 35 (gtc)
+[22:42:38] Found 6 tRNAs
+[22:42:38] Predicting Ribosomal RNAs
+[22:42:38] Running Barrnap with 4 threads
+[22:42:38] 1 gnl|Bactopia|SRR2838702_5 687 16S ribosomal RNA
+[22:42:38] 2 gnl|Bactopia|SRR2838702_5 2365 23S ribosomal RNA
+[22:42:38] 3 gnl|Bactopia|SRR2838702_5 5264 5S ribosomal RNA
+[22:42:38] Found 3 rRNAs
+[22:42:38] Skipping ncRNA search, enable with --rfam if desired.
+[22:42:38] Total of 9 tRNA + rRNA features
+[22:42:38] Searching for CRISPR repeats
+[22:42:38] Found 0 CRISPRs
+[22:42:38] Predicting coding sequences
+[22:42:38] Contigs total 159095 bp, so using single mode
+[22:42:38] Running: prodigal -i SRR2838702\/SRR2838702\.fna -c -m -g 11 -p single -f sco -q
+[22:42:39] Excluding CDS which overlaps existing RNA (rRNA) at gnl|Bactopia|SRR2838702_5:1153..1281 on + strand
+[22:42:39] Found 98 CDS
+[22:42:39] Connecting features back to sequences
+[22:42:39] Not using genus-specific database. Try --usegenus to enable it.
+[22:42:39] Preparing user-supplied primary BLAST annotation source: proteins.faa
+[22:42:39] Guessed source was in fasta format.
+[22:42:39] Running: makeblastdb -dbtype prot -in proteins\.faa -out SRR2838702\/proteins -logfile /dev/null
+[22:42:39] Using /inference source as 'proteins.faa'
+[22:42:39] Annotating CDS, please be patient.
+[22:42:39] Will use 4 CPUs for similarity searching.
+[22:42:39] There are still 98 unannotated CDS left (started with 98)
+[22:42:39] Will use blast to search against SRR2838702/proteins with 4 CPUs
+[22:42:39] Running: cat SRR2838702\/SRR2838702\.proteins\.tmp\.33\.faa | parallel --gnu --plain -j 4 --block 3155 --recstart '>' --pipe blastp -query - -db SRR2838702/proteins -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.proteins\.tmp\.33\.blast 2> /dev/null
+[22:42:44] Deleting unwanted file: SRR2838702/SRR2838702.proteins.tmp.33.faa
+[22:42:44] Deleting unwanted file: SRR2838702/SRR2838702.proteins.tmp.33.blast
+[22:42:44] There are still 12 unannotated CDS left (started with 98)
+[22:42:44] Will use blast to search against /usr/local/db/kingdom/Bacteria/IS with 4 CPUs
+[22:42:44] Running: cat SRR2838702\/SRR2838702\.IS\.tmp\.33\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/IS -evalue 1e-30 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.IS\.tmp\.33\.blast 2> /dev/null
+[22:42:44] Deleting unwanted file: SRR2838702/SRR2838702.IS.tmp.33.faa
+[22:42:44] Deleting unwanted file: SRR2838702/SRR2838702.IS.tmp.33.blast
+[22:42:44] There are still 12 unannotated CDS left (started with 98)
+[22:42:44] Will use blast to search against /usr/local/db/kingdom/Bacteria/AMR with 4 CPUs
+[22:42:44] Running: cat SRR2838702\/SRR2838702\.AMR\.tmp\.33\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/AMR -evalue 1e-300 -qcov_hsp_perc 90 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.AMR\.tmp\.33\.blast 2> /dev/null
+[22:42:45] Deleting unwanted file: SRR2838702/SRR2838702.AMR.tmp.33.faa
+[22:42:45] Deleting unwanted file: SRR2838702/SRR2838702.AMR.tmp.33.blast
+[22:42:45] There are still 12 unannotated CDS left (started with 98)
+[22:42:45] Will use blast to search against /usr/local/db/kingdom/Bacteria/sprot with 4 CPUs
+[22:42:45] Running: cat SRR2838702\/SRR2838702\.sprot\.tmp\.33\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe blastp -query - -db /usr/local/db/kingdom/Bacteria/sprot -evalue 1e-09 -qcov_hsp_perc 80 -num_threads 1 -num_descriptions 1 -num_alignments 1 -seg no > SRR2838702\/SRR2838702\.sprot\.tmp\.33\.blast 2> /dev/null
+[22:42:45] Deleting unwanted file: SRR2838702/SRR2838702.sprot.tmp.33.faa
+[22:42:45] Deleting unwanted file: SRR2838702/SRR2838702.sprot.tmp.33.blast
+[22:42:45] There are still 12 unannotated CDS left (started with 98)
+[22:42:45] Will use hmmer3 to search against /usr/local/db/hmm/HAMAP.hmm with 4 CPUs
+[22:42:45] Running: cat SRR2838702\/SRR2838702\.HAMAP\.hmm\.tmp\.33\.faa | parallel --gnu --plain -j 4 --block 142 --recstart '>' --pipe hmmscan --noali --notextw --acc -E 1e-09 --cpu 1 /usr/local/db/hmm/HAMAP.hmm /dev/stdin > SRR2838702\/SRR2838702\.HAMAP\.hmm\.tmp\.33\.hmmer3 2> /dev/null
+[22:42:46] Deleting unwanted file: SRR2838702/SRR2838702.HAMAP.hmm.tmp.33.faa
+[22:42:46] Deleting unwanted file: SRR2838702/SRR2838702.HAMAP.hmm.tmp.33.hmmer3
+[22:42:46] Deleting unwanted file: SRR2838702/proteins.psq
+[22:42:46] Deleting unwanted file: SRR2838702/proteins.phr
+[22:42:46] Deleting unwanted file: SRR2838702/proteins.pin
+[22:42:46] Labelling remaining 12 proteins as 'hypothetical protein'
+[22:42:46] Found 73 unique /gene codes.
+[22:42:46] Fixed 0 colliding /gene names.
+[22:42:46] Adding /locus_tag identifiers
+[22:42:46] Assigned 107 locus_tags to CDS and RNA features.
+[22:42:46] Writing outputs to SRR2838702/
+[22:42:46] Generating annotation statistics file
+[22:42:46] Generating Genbank and Sequin files
+[22:42:46] Running: tbl2asn -V b -a r10k -l paired-ends -M n -N 1 -y 'Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka' -Z SRR2838702\/SRR2838702\.err -i SRR2838702\/SRR2838702\.fsa 2> /dev/null
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.gbf
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 19-OCT-2026
+[22:42:46] Deleting unwanted file: SRR2838702/errorsummary.val
+[22:42:46] Deleting unwanted file: SRR2838702/SRR2838702.dr
+[22:42:46] Deleting unwanted file: SRR2838702/SRR2838702.fixedproducts
+[22:42:46] Deleting unwanted file: SRR2838702/SRR2838702.ecn
+[22:42:46] Deleting unwanted file: SRR2838702/SRR2838702.val
+[22:42:46] Repairing broken .GBK output that tbl2asn produces...
+[22:42:46] Running: sed 's/COORDINATES: profile/COORDINATES:profile/' < SRR2838702\/SRR2838702\.gbf > SRR2838702\/SRR2838702\.gbk
+[22:42:46] Deleting unwanted file: SRR2838702/SRR2838702.gbf
+[22:42:46] Output files:
+[22:42:46] SRR2838702/SRR2838702.faa
+[22:42:46] SRR2838702/SRR2838702.gbk
+[22:42:46] SRR2838702/SRR2838702.log
+[22:42:46] SRR2838702/SRR2838702.gff
+[22:42:46] SRR2838702/SRR2838702.fsa
+[22:42:46] SRR2838702/SRR2838702.txt
+[22:42:46] SRR2838702/SRR2838702.sqn
+[22:42:46] SRR2838702/SRR2838702.ffn
+[22:42:46] SRR2838702/SRR2838702.err
+[22:42:46] SRR2838702/SRR2838702.tsv
+[22:42:46] SRR2838702/SRR2838702.tbl
+[22:42:46] SRR2838702/SRR2838702.fna
+[22:42:46] Annotation finished successfully.
+[22:42:46] Walltime used: 0.15 minutes
+[22:42:46] If you use this result please cite the Prokka paper:
+[22:42:46] Seemann T (2014) Prokka: rapid prokaryotic genome annotation. Bioinformatics. 30(14):2068-9.
+[22:42:46] Type 'prokka --citation' for more details.
+[22:42:46] Share and enjoy!
+
+
+Building a new DB, current time: 10/19/2026 22:42:47
+New DB name:   /home/chloe_ploss/wm_training/nextflow/work/6c/29ae1284d1f0d2c82ae7065c334230/blastdb/SRR2838702.fna
+New DB title:  Assembled contigs for SRR2838702
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 80 sequences in 0.004179 seconds.
+
+
+
+
+Building a new DB, current time: 10/19/2026 22:42:47
+New DB name:   /home/chloe_ploss/wm_training/nextflow/work/6c/29ae1284d1f0d2c82ae7065c334230/blastdb/SRR2838702.ffn
+New DB title:  Predicted genes sequences for SRR2838702
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 107 sequences in 0.00409794 seconds.
+
+
+
+
+Building a new DB, current time: 10/19/2026 22:42:47
+New DB name:   /home/chloe_ploss/wm_training/nextflow/work/6c/29ae1284d1f0d2c82ae7065c334230/blastdb/SRR2838702.faa
+New DB title:  Predicted protein sequences for SRR2838702
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 98 sequences in 0.00268292 seconds.
+
+
+blastdb/
+blastdb/SRR2838702.faa.pto
+blastdb/SRR2838702.faa.pot
+blastdb/SRR2838702.faa.pdb
+blastdb/SRR2838702.ffn.ntf
+blastdb/SRR2838702.faa.pjs
+blastdb/SRR2838702.fna.not
+blastdb/SRR2838702.fna.nin
+blastdb/SRR2838702.faa.pin
+blastdb/SRR2838702.fna.ntf
+blastdb/SRR2838702.fna.nto
+blastdb/SRR2838702.fna.ndb
+blastdb/SRR2838702.ffn.ndb
+blastdb/SRR2838702.faa.psq
+blastdb/SRR2838702.faa.phr
+blastdb/SRR2838702.ffn.not
+blastdb/SRR2838702.fna.nsq
+blastdb/SRR2838702.faa.ptf
+blastdb/SRR2838702.ffn.nin
+blastdb/SRR2838702.ffn.nsq
+blastdb/SRR2838702.ffn.nto
+blastdb/SRR2838702.ffn.nhr
+blastdb/SRR2838702.fna.nhr
+blastdb/SRR2838702.fna.njs
+blastdb/SRR2838702.ffn.njs

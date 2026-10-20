@@ -9,14 +9,15 @@ include { FASTQ_SCAN as FASTQ_SCAN_ORIGINAL } from './modules/fastqscan.nf'
 include { FASTQ_SCAN as FASTQ_SCAN_FINAL } from './modules/fastqscan.nf'
 include { TRIMMOMATIC } from './modules/trimmomatic.nf'
 
-// Create the input channel
-my_inputs = tuple(
-    ['id': params.sample ],
-    [file(params.r1, checkIfExists: true),
-     file(params.r2, checkIfExists: true)]
-)
-
 workflow {
+    // move inside workflow block
+    // Create the input channel
+    my_inputs = tuple(
+        ['id': params.sample ],
+        [file(params.r1, checkIfExists: true),
+        file(params.r2, checkIfExists: true)]
+    )
+
     // Run fastq-scan on the original FASTQs
     FASTQ_SCAN_ORIGINAL(my_inputs, 'original')
 

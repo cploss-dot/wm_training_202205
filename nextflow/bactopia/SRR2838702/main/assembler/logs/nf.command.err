@@ -1,0 +1,78 @@
+Unable to find image 'quay.io/biocontainers/bactopia-assembler:1.0.5--hdfd78af_0' locally
+1.0.5--hdfd78af_0: Pulling from biocontainers/bactopia-assembler
+0cacab098358: Already exists
+bd9ddc54bea9: Already exists
+ad361f47f1ed: Pulling fs layer
+ad361f47f1ed: Verifying Checksum
+ad361f47f1ed: Download complete
+ad361f47f1ed: Pull complete
+Digest: sha256:608df315e577290814875a95418ad37e07dab781cc6eba0b3479e85ac9e501ea
+Status: Downloaded newer image for quay.io/biocontainers/bactopia-assembler:1.0.5--hdfd78af_0
+[shovill] Hello stranger
+[shovill] You ran: /usr/local/bin/shovill --R1 staging/reads/r1/SRR2838702_R1.fastq.gz --R2 staging/reads/r2/SRR2838702_R2.fastq.gz --gsize 358242 --outdir supplemental --assembler skesa --minlen 500 --mincov 2 --force --keepfiles --depth 0 --noreadcorr --namefmt SRR2838702_%05d --cpus 4 --ram 7
+[shovill] This is shovill 1.1.0
+[shovill] Written by Torsten Seemann
+[shovill] Homepage is https://github.com/tseemann/shovill
+[shovill] Operating system is linux
+[shovill] Perl version is v5.32.1
+[shovill] Machine has 4 CPU cores and 15.62 GB RAM
+[shovill] Using bwa - /usr/local/bin/bwa | Version: 0.7.19-r1273
+[shovill] Using flash - /usr/local/bin/flash | FLASH v1.2.11
+[shovill] Using java - /usr/local/bin/java | openjdk version "25.0.2-internal" 2026-01-20
+[shovill] Using kmc - /usr/local/bin/kmc | K-Mer Counter (KMC) ver. 3.2.4 (2024-02-09)
+[shovill] Using lighter - /usr/local/bin/lighter | Lighter v1.1.3
+[shovill] Using megahit - /usr/local/bin/megahit | MEGAHIT v1.2.9
+[shovill] Using megahit_toolkit - /usr/local/bin/megahit_toolkit | v1.2.9
+[shovill] Using pigz - /usr/local/bin/pigz | pigz 2.8
+[shovill] Using pilon - /usr/local/bin/pilon | Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+[shovill] Using samclip - /usr/local/bin/samclip | samclip 0.4.0
+[shovill] Using samtools - /usr/local/bin/samtools | Version: 1.23.1 (using htslib 1.23.1)
+[shovill] Using seqtk - /usr/local/bin/seqtk | Version: 1.5-r133
+[shovill] Using skesa - /usr/local/bin/skesa | SKESA 2.5.1
+[shovill] Using spades.py - /usr/local/bin/spades.py | SPAdes genome assembler v4.2.0
+[shovill] Using trimmomatic - /usr/local/bin/trimmomatic | 0.40
+[shovill] Using velvetg - /usr/local/bin/velvetg | Version 1.2.10
+[shovill] Using velveth - /usr/local/bin/velveth | Version 1.2.10
+[shovill] Found spades version: 004002000
+[shovill] Forced overwrite of existing --outdir supplemental
+[shovill] Using tempdir: /tmp/64Ie_eOHn7
+[shovill] Changing into folder: /home/chloe_ploss/wm_training/nextflow/work/40/a7f1e69523a9c027a3de683dcf54c8/supplemental
+[shovill] Collecting raw read statistics with 'seqtk'
+[shovill] Running: seqtk fqchk -q3 \/home\/chloe_ploss\/wm_training\/nextflow\/work\/3b\/b20e2aab7bc2ed20ee242d9b9b883b\/SRR2838702_R1\.fastq\.gz >/tmp/kypM5P0sUO 2>&1 | sed 's/^/[seqtk] /' | tee -a shovill.log
+[shovill] Read stats: max_len = 101
+[shovill] Read stats: avg_len = 101
+[shovill] Read stats: min_len = 64
+[shovill] Read stats: total_bp = 19528942
+[shovill] Using genome size 358242 bp
+[shovill] Estimated sequencing depth: 54 x
+[shovill] No read depth reduction requested or necessary.
+[shovill] Appending -Xmx7g to _JAVA_OPTIONS
+[shovill] Running: ln -sf \/home\/chloe_ploss\/wm_training\/nextflow\/work\/3b\/b20e2aab7bc2ed20ee242d9b9b883b\/SRR2838702_R1\.fastq\.gz R1.fq.gz 2>&1 | sed 's/^/[ln] /' | tee -a shovill.log
+[shovill] Running: ln -sf \/home\/chloe_ploss\/wm_training\/nextflow\/work\/3b\/b20e2aab7bc2ed20ee242d9b9b883b\/SRR2838702_R2\.fastq\.gz R2.fq.gz 2>&1 | sed 's/^/[ln] /' | tee -a shovill.log
+[shovill] Average read length looks like 101 bp
+[shovill] Setting k-mer range to (31 .. 75)
+[shovill] Estimated K-mers: 31 43 55 67 [kn=5, ks=12, kmin=31, kmax=75]
+[shovill] Using kmers: 31,43,55,67
+[shovill] Enabled --noreadcorr, so no read correction will be performed
+[shovill] Overlapping/stitching PE reads with 'FLASH'
+[shovill] Running: flash -m 20 -M 101 -d . -o flash -z -t 4 R1.fq.gz R2.fq.gz 2>&1 | sed 's/^//' | tee -a shovill.log
+[shovill] Assembling reads with 'skesa'
+[shovill] Running: skesa --gz  --fastq flash.extendedFrags.fastq.gz --fastq flash.notCombined_1.fastq.gz,flash.notCombined_2.fastq.gz --use_paired_ends --contigs_out skesa.fasta --min_contig 1 --memory 7 --cores 4 --vector_percent 1 2>&1 | sed 's/^/[skesa] /' | tee -a shovill.log
+[shovill] Checking for assembly errors in skesa.fasta
+[shovill] Running: bwa index skesa.fasta 2>&1 | sed 's/^/[bwa-index] /' | tee -a shovill.log
+[shovill] Running: samtools faidx skesa.fasta 2>&1 | sed 's/^/[faidx] /' | tee -a shovill.log
+[shovill] Running: (bwa mem -v 3 -x intractg -t 4 skesa.fasta R1.fq.gz R2.fq.gz | samclip --ref skesa.fasta.fai | samtools sort --threads 1 -m 3072m --reference skesa.fasta -T /tmp/64Ie_eOHn7 -o shovill.bam) 2>&1 | sed 's/^/[bwa+samtools-sort] /' | tee -a shovill.log
+[shovill] Running: samtools index shovill.bam 2>&1 | sed 's/^/[samtools-index] /' | tee -a shovill.log
+[shovill] Correcting errors in skesa.fasta
+[shovill] Running: pilon --genome skesa.fasta --frags shovill.bam --minmq 60 --minqual 3 --fix bases --output pilon --threads 4 --changes --mindepth 0.25 2>&1 | sed 's/^/[pilon] /' | tee -a shovill.log
+[shovill] Repaired 0 contigs from skesa.fasta at 0 positions.
+[shovill] Assembly is 159095, estimated genome size was 358242 (-55.59%)
+[shovill] Note: skesa does not produce a graph file
+[shovill] Walltime used: 2 min 2 sec
+[shovill] Results in: /home/chloe_ploss/wm_training/nextflow/work/40/a7f1e69523a9c027a3de683dcf54c8/supplemental
+[shovill] Final assembly contigs: /home/chloe_ploss/wm_training/nextflow/work/40/a7f1e69523a9c027a3de683dcf54c8/supplemental/contigs.fa
+[shovill] It contains 80 (min=500) contigs totalling 159095 bp.
+[shovill] If you know your genome size, use --gsize to skip the estimation step
+[shovill] Done.
+/home/chloe_ploss/wm_training/nextflow/work/40/a7f1e69523a9c027a3de683dcf54c8/.command.sh: line 125: [: null: integer expression expected
+/home/chloe_ploss/wm_training/nextflow/work/40/a7f1e69523a9c027a3de683dcf54c8/.command.sh: line 133: [: null: integer expression expected

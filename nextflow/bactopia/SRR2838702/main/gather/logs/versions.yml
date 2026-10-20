@@ -1,0 +1,6 @@
+"GATHER:GATHER_MODULE":
+    art: 2.5.8
+    fastq-dl: 4.0.1
+    fastq-scan: 1.0.1
+    genomedl: 1.0.0
+    pigz: 2.8

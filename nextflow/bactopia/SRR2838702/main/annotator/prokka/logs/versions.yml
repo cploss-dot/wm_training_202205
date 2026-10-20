@@ -1,0 +1,3 @@
+"PROKKA:PROKKA_MODULE":
+    makeblastdb: 2.16.0+
+    prokka: 1.15.6

@@ -1,0 +1,20 @@
+Unable to find image 'quay.io/biocontainers/mlst:2.35.0--hdfd78af_0' locally
+2.35.0--hdfd78af_0: Pulling from biocontainers/mlst
+0cacab098358: Already exists
+bd9ddc54bea9: Already exists
+fbe4820d1d99: Pulling fs layer
+fbe4820d1d99: Verifying Checksum
+fbe4820d1d99: Download complete
+fbe4820d1d99: Pull complete
+Digest: sha256:76d2b98d4c17aa6a08b0735cf7a7b2af49a9acc628f0cc02e18b242b1ed07d76
+Status: Downloaded newer image for quay.io/biocontainers/mlst:2.35.0--hdfd78af_0
+This is mlst 2.35.0 running on linux with Perl 5.032001
+Checking mlst dependencies:
+Found 'blastn' => /usr/local/bin/blastn
+Found 'any2fasta' => /usr/local/bin/any2fasta
+Excluding 4 schemes: ecoli vcholerae_2 abaumannii senterica_achtman_2
+Using label 'SRR2838702' for file SRR2838702.fna.gz
+Running: any2fasta -q SRR2838702\.fna\.gz > /tmp/fTseEoShaS/mlst.fna
+Running:  blastn -query /tmp/fTseEoShaS/mlst.fna -out /tmp/fTseEoShaS/mlst.bls -db database\/mlstdb\/\/blast\/mlst\.fa -num_threads 4 -ungapped -dust no -word_size 32 -max_target_seqs 100000 -perc_identity 95 -evalue 1E-20 -outfmt '6 sseqid slen length nident qseqid qstart qend qseq sstrand'
+If you like MLST, you're going to absolutely love cgMLST!
+Done.

@@ -1,0 +1,1152 @@
+Discrepancy Report Results
+
+Summary
+DISC_SOURCE_QUALS_ASNDISC:strain (all present, all same)
+DISC_SOURCE_QUALS_ASNDISC:taxname (all present, all same)
+DISC_FEATURE_COUNT:CDS: 98 present
+DISC_FEATURE_COUNT:tRNA: 6 present
+DISC_FEATURE_COUNT:rRNA: 3 present
+DISC_COUNT_NUCLEOTIDES:80 nucleotide Bioseqs are present
+FEATURE_LOCATION_CONFLICT:107 features have inconsistent gene locations.
+NO_ANNOTATION:30 bioseqs have no features
+DISC_QUALITY_SCORES:Quality scores are missing on all sequences.
+ONCALLER_COMMENT_PRESENT:80 comment descriptors were found (all same)
+SHORT_PROT_SEQUENCES:7 protein sequences are shorter than 50 aa.
+MISSING_GENOMEASSEMBLY_COMMENTS:80 bioseqs are missing GenomeAssembly structured comments
+MOLTYPE_NOT_MRNA:80 molecule types are not set as mRNA.
+TECHNIQUE_NOT_TSA:80 technique are not set as TSA
+MISSING_STRUCTURED_COMMENT:80 sequences do not include structured comments.
+MISSING_PROJECT:178 sequences do not include project.
+DISC_INCONSISTENT_MOLINFO_TECH:Molinfo Technique Report (some missing, all same)
+
+
+Detailed Report
+
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::strain (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::80 sources have 'strain' for strain
+DiscRep_ALL:DISC_SOURCE_QUALS_ASNDISC::taxname (all present, all same)
+DiscRep_SUB:DISC_SOURCE_QUALS_ASNDISC::80 sources have 'Genus species' for taxname
+DiscRep_ALL:DISC_FEATURE_COUNT::CDS: 98 present
+DiscRep_ALL:DISC_FEATURE_COUNT::tRNA: 6 present
+DiscRep_ALL:DISC_FEATURE_COUNT::rRNA: 3 present
+DiscRep_ALL:DISC_COUNT_NUCLEOTIDES::80 nucleotide Bioseqs are present
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1 (length 7356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2 (length 6718)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3 (length 6639)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4 (length 6069)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5 (length 5610)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6 (length 5501)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7 (length 5380)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8 (length 4869)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9 (length 4571)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10 (length 3852)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11 (length 3375)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12 (length 3342)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13 (length 3267)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14 (length 2936)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15 (length 2768)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16 (length 2686)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17 (length 2623)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18 (length 2584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19 (length 2473)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21 (length 2254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22 (length 2170)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23 (length 2162)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24 (length 2102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25 (length 1857)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26 (length 1827)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28 (length 1814)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29 (length 1806)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30 (length 1793)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31 (length 1771)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32 (length 1650)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35 (length 1608)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37 (length 1498)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39 (length 1470)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41 (length 1460)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42 (length 1447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43 (length 1388)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47 (length 1339)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49 (length 1294)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50 (length 1287)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52 (length 1253)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54 (length 1186)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55 (length 1146)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56 (length 1129)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59 (length 1096)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61 (length 1054)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64 (length 783)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67 (length 719)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68 (length 689)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69 (length 685)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74 (length 584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+
+DiscRep_ALL:FEATURE_LOCATION_CONFLICT::107 features have inconsistent gene locations.
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	glutamate--tRNA ligase	SRR2838702_1:348-1781	SRR2838702_00001
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	2-oxoglutarate dehydrogenase E1 component	SRR2838702_1:1812-4460	SRR2838702_00002
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_1:4629-5699	SRR2838702_00003
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	dihydrolipoyl dehydrogenase	SRR2838702_1:5720-7138	SRR2838702_00004
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	ketol-acid reductoisomerase	SRR2838702_2:c1211-195	SRR2838702_00005
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	acetolactate synthase small subunit	SRR2838702_2:c1724-1233	SRR2838702_00006
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	acetolactate synthase 3 large subunit	SRR2838702_2:c3473-1731	SRR2838702_00007
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	MarC family NAAT transporter	SRR2838702_2:5612-6256	SRR2838702_00008
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L6	SRR2838702_3:2-193	SRR2838702_00009
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L18	SRR2838702_3:201-554	SRR2838702_00010
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S5	SRR2838702_3:594-1109	SRR2838702_00011
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L15	SRR2838702_3:1226-1678	SRR2838702_00012
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	preprotein translocase subunit SecY	SRR2838702_3:1675-2868	SRR2838702_00013
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L36	SRR2838702_3:2961-3074	SRR2838702_00014
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S13	SRR2838702_3:3087-3437	SRR2838702_00015
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S11	SRR2838702_3:3443-3835	SRR2838702_00016
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S4	SRR2838702_3:3848-4459	SRR2838702_00017
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	DNA-directed RNA polymerase subunit alpha	SRR2838702_3:4471-5460	SRR2838702_00018
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L17	SRR2838702_3:5475-5825	SRR2838702_00019
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L23	SRR2838702_4:160-417	SRR2838702_00020
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L2	SRR2838702_4:439-1239	SRR2838702_00021
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S19	SRR2838702_4:1241-1519	SRR2838702_00022
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L22	SRR2838702_4:1533-1874	SRR2838702_00023
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S3	SRR2838702_4:1889-2569	SRR2838702_00024
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L16	SRR2838702_4:2571-2984	SRR2838702_00025
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L29	SRR2838702_4:2988-3179	SRR2838702_00026
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S17	SRR2838702_4:3176-3427	SRR2838702_00027
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L14	SRR2838702_4:3444-3815	SRR2838702_00028
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L24	SRR2838702_4:3822-4124	SRR2838702_00029
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L5	SRR2838702_4:4121-4624	SRR2838702_00030
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S14	SRR2838702_4:4648-4953	SRR2838702_00031
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S8	SRR2838702_4:4981-5364	SRR2838702_00032
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:rRNA	16S ribosomal RNA	SRR2838702_5:687-2219	SRR2838702_00033
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:tRNA	Ile	SRR2838702_5:2263-2337	SRR2838702_00034
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:rRNA	23S ribosomal RNA	SRR2838702_5:2365-5232	SRR2838702_00035
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:rRNA	5S ribosomal RNA	SRR2838702_5:5264-5372	SRR2838702_00036
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	DNA-directed RNA polymerase subunit beta'	SRR2838702_6:171-1868	SRR2838702_00037
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S12	SRR2838702_6:1926-2294	SRR2838702_00038
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S7	SRR2838702_6:2299-2772	SRR2838702_00039
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	elongation factor G	SRR2838702_6:2799-4934	SRR2838702_00040
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	molecular chaperone DnaK	SRR2838702_7:2249-4174	SRR2838702_00041
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	molecular chaperone DnaJ	SRR2838702_7:4190-5233	SRR2838702_00042
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	4-hydroxy-tetrahydrodipicolinate synthase	SRR2838702_8:1746-2621	SRR2838702_00043
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L27	SRR2838702_9:56-322	SRR2838702_00044
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	Obg family GTPase CgtA	SRR2838702_9:310-1293	SRR2838702_00045
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S20	SRR2838702_9:1286-1525	SRR2838702_00046
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	isoleucine--tRNA ligase	SRR2838702_9:1541-4387	SRR2838702_00047
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	argininosuccinate synthase	SRR2838702_10:101-1183	SRR2838702_00048
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	co-chaperone GroES	SRR2838702_10:1396-1686	SRR2838702_00049
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	chaperonin GroEL	SRR2838702_10:1722-3353	SRR2838702_00050
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	rRNA maturation RNase YbeY	SRR2838702_11:185-628	SRR2838702_00051
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	leucine--tRNA ligase	SRR2838702_11:625-3216	SRR2838702_00052
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	tryptophan synthase subunit beta	SRR2838702_12:404-1585	SRR2838702_00053
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	tryptophan synthase subunit alpha	SRR2838702_12:1591-2397	SRR2838702_00054
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	YfhL family 4Fe-4S dicluster ferredoxin	SRR2838702_12:c2582-2394	SRR2838702_00055
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	alkyl hydroperoxide reductase subunit C	SRR2838702_12:c3148-2585	SRR2838702_00056
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	DNA gyrase subunit A	SRR2838702_13:219-2765	SRR2838702_00057
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	phosphoribosylanthranilate isomerase	SRR2838702_14:c1254-619	SRR2838702_00058
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	tRNA pseudouridine(38-40) synthase TruA	SRR2838702_14:c2099-1275	SRR2838702_00059
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	aspartate-semialdehyde dehydrogenase	SRR2838702_14:c2897-2103	SRR2838702_00060
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	DNA-directed RNA polymerase subunit beta	SRR2838702_15:127-558	SRR2838702_00061
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	RNA polymerase sigma factor RpoH	SRR2838702_16:c1013-171	SRR2838702_00062
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	16S rRNA (guanine(966)-N(2))-methyltransferase RsmD	SRR2838702_16:1073-1687	SRR2838702_00063
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	lysine--tRNA ligase	SRR2838702_16:c2650-1652	SRR2838702_00064
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	50S ribosomal protein L19	SRR2838702_17:68-421	SRR2838702_00065
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	homoserine dehydrogenase	SRR2838702_17:435-1709	SRR2838702_00066
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	chorismate synthase	SRR2838702_18:84-257	SRR2838702_00067
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	3-isopropylmalate dehydratase large subunit	SRR2838702_18:259-1659	SRR2838702_00068
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:tRNA	Arg	SRR2838702_18:1767-1842	SRR2838702_00069
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	AI-2E family transporter	SRR2838702_19:69-779	SRR2838702_00070
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:tRNA	Thr	SRR2838702_19:c858-786	SRR2838702_00071
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	prephenate dehydratase	SRR2838702_21:27-518	SRR2838702_00072
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase	SRR2838702_21:524-1843	SRR2838702_00073
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:tRNA	Pro	SRR2838702_22:c2056-1983	SRR2838702_00074
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_23:147-575	SRR2838702_00075
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	Fe-S cluster assembly protein SufB	SRR2838702_24:c2101-926	SRR2838702_00076
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	phenylalanine--tRNA ligase subunit alpha	SRR2838702_25:70-738	SRR2838702_00077
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S1	SRR2838702_26:44-1198	SRR2838702_00078
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_28:c255-163	SRR2838702_00079
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	vitamin B12 ABC transporter ATP-binding protein BacA	SRR2838702_29:c1681-1256	SRR2838702_00080
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	F0F1 ATP synthase subunit beta	SRR2838702_30:85-1455	SRR2838702_00081
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_31:103-225	SRR2838702_00082
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	aspartate kinase	SRR2838702_31:c1698-934	SRR2838702_00084
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:tRNA	Ser	SRR2838702_31:c922-839	SRR2838702_00083
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	NADH-quinone oxidoreductase subunit C/D	SRR2838702_32:21-1649	SRR2838702_00085
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	cardiolipin synthase	SRR2838702_35:20-259	SRR2838702_00086
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	magnesium transporter	SRR2838702_35:c1530-292	SRR2838702_00087
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_37:c1420-1043	SRR2838702_00088
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	membrane protein insertase YidC	SRR2838702_39:296-928	SRR2838702_00089
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	polyribonucleotide nucleotidyltransferase	SRR2838702_41:18-1316	SRR2838702_00090
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	serine--tRNA ligase	SRR2838702_42:c1117-377	SRR2838702_00091
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	ribonuclease E	SRR2838702_43:42-1385	SRR2838702_00092
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_47:c414-187	SRR2838702_00093
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	ATP-dependent protease ATPase subunit HslU	SRR2838702_49:58-1257	SRR2838702_00094
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_50:903-1022	SRR2838702_00095
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_52:258-347	SRR2838702_00096
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_54:c1093-758	SRR2838702_00097
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_55:916-1014	SRR2838702_00098
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	elongation factor Tu	SRR2838702_56:29-616	SRR2838702_00099
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	30S ribosomal protein S10	SRR2838702_56:621-935	SRR2838702_00100
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::RNA feature xref gene does not exist
+SRR2838702/SRR2838702:tRNA	Asp	SRR2838702_59:c942-869	SRR2838702_00101
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	ribose-phosphate pyrophosphokinase	SRR2838702_61:243-839	SRR2838702_00102
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_64:286-474	SRR2838702_00103
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	hypothetical protein	SRR2838702_67:9-146	SRR2838702_00104
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	ornithine carbamoyltransferase	SRR2838702_68:38-247	SRR2838702_00105
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	Fe-S biogenesis protein NfuA	SRR2838702_69:123-485	SRR2838702_00106
+
+DiscRep_SUB:FEATURE_LOCATION_CONFLICT::Coding region xref gene does not exist
+SRR2838702/SRR2838702:CDS	decarboxylating 6-phosphogluconate dehydrogenase	SRR2838702_74:c567-313	SRR2838702_00107
+
+DiscRep_ALL:NO_ANNOTATION::30 bioseqs have no features
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+
+DiscRep_ALL:DISC_QUALITY_SCORES::Quality scores are missing on all sequences.
+
+DiscRep_ALL:ONCALLER_COMMENT_PRESENT::80 comment descriptors were found (all same)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80:Annotated using prokka 1.15.6 from https://github.com/tseemann/prokka
+
+DiscRep_ALL:SHORT_PROT_SEQUENCES::7 protein sequences are shorter than 50 aa.
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00014 (length 37)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00079 (length 30)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00082 (length 40)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00095 (length 39)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00096 (length 29)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00098 (length 32)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00104 (length 45)
+
+DiscRep_ALL:MISSING_GENOMEASSEMBLY_COMMENTS::80 bioseqs are missing GenomeAssembly structured comments
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1 (length 7356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2 (length 6718)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3 (length 6639)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4 (length 6069)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5 (length 5610)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6 (length 5501)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7 (length 5380)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8 (length 4869)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9 (length 4571)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10 (length 3852)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11 (length 3375)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12 (length 3342)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13 (length 3267)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14 (length 2936)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15 (length 2768)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16 (length 2686)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17 (length 2623)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18 (length 2584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19 (length 2473)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21 (length 2254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22 (length 2170)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23 (length 2162)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24 (length 2102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25 (length 1857)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26 (length 1827)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28 (length 1814)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29 (length 1806)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30 (length 1793)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31 (length 1771)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32 (length 1650)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35 (length 1608)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37 (length 1498)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39 (length 1470)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41 (length 1460)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42 (length 1447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43 (length 1388)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47 (length 1339)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49 (length 1294)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50 (length 1287)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52 (length 1253)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54 (length 1186)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55 (length 1146)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56 (length 1129)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59 (length 1096)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61 (length 1054)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64 (length 783)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67 (length 719)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68 (length 689)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69 (length 685)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74 (length 584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+
+DiscRep_ALL:MOLTYPE_NOT_MRNA::80 molecule types are not set as mRNA.
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1 (length 7356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2 (length 6718)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3 (length 6639)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4 (length 6069)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5 (length 5610)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6 (length 5501)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7 (length 5380)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8 (length 4869)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9 (length 4571)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10 (length 3852)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11 (length 3375)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12 (length 3342)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13 (length 3267)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14 (length 2936)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15 (length 2768)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16 (length 2686)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17 (length 2623)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18 (length 2584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19 (length 2473)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21 (length 2254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22 (length 2170)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23 (length 2162)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24 (length 2102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25 (length 1857)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26 (length 1827)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28 (length 1814)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29 (length 1806)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30 (length 1793)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31 (length 1771)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32 (length 1650)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35 (length 1608)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37 (length 1498)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39 (length 1470)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41 (length 1460)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42 (length 1447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43 (length 1388)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47 (length 1339)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49 (length 1294)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50 (length 1287)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52 (length 1253)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54 (length 1186)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55 (length 1146)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56 (length 1129)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59 (length 1096)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61 (length 1054)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64 (length 783)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67 (length 719)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68 (length 689)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69 (length 685)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74 (length 584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+
+DiscRep_ALL:TECHNIQUE_NOT_TSA::80 technique are not set as TSA
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1 (length 7356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2 (length 6718)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3 (length 6639)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4 (length 6069)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5 (length 5610)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6 (length 5501)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7 (length 5380)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8 (length 4869)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9 (length 4571)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10 (length 3852)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11 (length 3375)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12 (length 3342)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13 (length 3267)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14 (length 2936)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15 (length 2768)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16 (length 2686)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17 (length 2623)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18 (length 2584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19 (length 2473)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21 (length 2254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22 (length 2170)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23 (length 2162)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24 (length 2102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25 (length 1857)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26 (length 1827)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28 (length 1814)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29 (length 1806)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30 (length 1793)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31 (length 1771)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32 (length 1650)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35 (length 1608)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37 (length 1498)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39 (length 1470)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41 (length 1460)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42 (length 1447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43 (length 1388)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47 (length 1339)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49 (length 1294)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50 (length 1287)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52 (length 1253)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54 (length 1186)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55 (length 1146)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56 (length 1129)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59 (length 1096)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61 (length 1054)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64 (length 783)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67 (length 719)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68 (length 689)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69 (length 685)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74 (length 584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+
+DiscRep_ALL:MISSING_STRUCTURED_COMMENT::80 sequences do not include structured comments.
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1 (length 7356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2 (length 6718)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3 (length 6639)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4 (length 6069)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5 (length 5610)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6 (length 5501)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7 (length 5380)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8 (length 4869)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9 (length 4571)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10 (length 3852)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11 (length 3375)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12 (length 3342)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13 (length 3267)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14 (length 2936)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15 (length 2768)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16 (length 2686)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17 (length 2623)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18 (length 2584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19 (length 2473)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21 (length 2254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22 (length 2170)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23 (length 2162)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24 (length 2102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25 (length 1857)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26 (length 1827)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28 (length 1814)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29 (length 1806)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30 (length 1793)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31 (length 1771)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32 (length 1650)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35 (length 1608)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37 (length 1498)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39 (length 1470)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41 (length 1460)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42 (length 1447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43 (length 1388)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47 (length 1339)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49 (length 1294)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50 (length 1287)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52 (length 1253)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54 (length 1186)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55 (length 1146)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56 (length 1129)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59 (length 1096)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61 (length 1054)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64 (length 783)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67 (length 719)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68 (length 689)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69 (length 685)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74 (length 584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+
+DiscRep_ALL:MISSING_PROJECT::178 sequences do not include project.
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1 (length 7356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00001 (length 477)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00002 (length 882)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00003 (length 356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00004 (length 472)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2 (length 6718)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00005 (length 338)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00006 (length 163)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00007 (length 580)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00008 (length 214)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3 (length 6639)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00009 (length 63)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00010 (length 117)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00011 (length 171)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00012 (length 150)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00013 (length 397)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00014 (length 37)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00015 (length 116)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00016 (length 130)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00017 (length 203)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00018 (length 329)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00019 (length 116)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4 (length 6069)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00020 (length 85)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00021 (length 266)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00022 (length 92)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00023 (length 113)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00024 (length 226)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00025 (length 137)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00026 (length 63)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00027 (length 83)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00028 (length 123)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00029 (length 100)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00030 (length 167)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00031 (length 101)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00032 (length 127)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5 (length 5610)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6 (length 5501)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00037 (length 565)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00038 (length 122)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00039 (length 157)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00040 (length 711)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7 (length 5380)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00041 (length 641)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00042 (length 347)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8 (length 4869)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00043 (length 291)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9 (length 4571)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00044 (length 88)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00045 (length 327)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00046 (length 79)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00047 (length 948)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10 (length 3852)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00048 (length 360)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00049 (length 96)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00050 (length 543)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11 (length 3375)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00051 (length 147)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00052 (length 863)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12 (length 3342)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00053 (length 393)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00054 (length 268)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00055 (length 62)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00056 (length 187)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13 (length 3267)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00057 (length 848)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14 (length 2936)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00058 (length 211)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00059 (length 274)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00060 (length 264)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15 (length 2768)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00061 (length 143)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16 (length 2686)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00062 (length 280)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00063 (length 204)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00064 (length 332)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17 (length 2623)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00065 (length 117)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00066 (length 424)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18 (length 2584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00067 (length 57)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00068 (length 466)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19 (length 2473)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00070 (length 236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21 (length 2254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00072 (length 163)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00073 (length 439)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22 (length 2170)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23 (length 2162)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00075 (length 142)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24 (length 2102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00076 (length 391)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25 (length 1857)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00077 (length 222)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26 (length 1827)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00078 (length 384)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28 (length 1814)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00079 (length 30)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29 (length 1806)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00080 (length 141)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30 (length 1793)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00081 (length 456)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31 (length 1771)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00082 (length 40)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00084 (length 254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32 (length 1650)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00085 (length 542)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35 (length 1608)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00086 (length 79)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00087 (length 412)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37 (length 1498)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00088 (length 125)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39 (length 1470)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00089 (length 210)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41 (length 1460)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00090 (length 432)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42 (length 1447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00091 (length 246)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43 (length 1388)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00092 (length 447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47 (length 1339)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00093 (length 75)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49 (length 1294)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00094 (length 399)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50 (length 1287)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00095 (length 39)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52 (length 1253)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00096 (length 29)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54 (length 1186)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00097 (length 111)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55 (length 1146)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00098 (length 32)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56 (length 1129)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00099 (length 195)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00100 (length 104)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59 (length 1096)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61 (length 1054)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00102 (length 198)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64 (length 783)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00103 (length 62)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67 (length 719)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00104 (length 45)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68 (length 689)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00105 (length 69)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69 (length 685)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00106 (length 120)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74 (length 584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_00107 (length 84)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+
+DiscRep_ALL:DISC_INCONSISTENT_MOLINFO_TECH::Molinfo Technique Report (some missing, all same)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::technique (all missing)
+DiscRep_SUB:DISC_INCONSISTENT_MOLINFO_TECH::80 Molinfos are missing field technique
+SRR2838702/SRR2838702:Bactopia:SRR2838702_1 (length 7356)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_2 (length 6718)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_3 (length 6639)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_4 (length 6069)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_5 (length 5610)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_6 (length 5501)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_7 (length 5380)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_8 (length 4869)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_9 (length 4571)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_10 (length 3852)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_11 (length 3375)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_12 (length 3342)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_13 (length 3267)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_14 (length 2936)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_15 (length 2768)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_16 (length 2686)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_17 (length 2623)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_18 (length 2584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_19 (length 2473)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_20 (length 2423)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_21 (length 2254)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_22 (length 2170)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_23 (length 2162)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_24 (length 2102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_25 (length 1857)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_26 (length 1827)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_27 (length 1822)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_28 (length 1814)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_29 (length 1806)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_30 (length 1793)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_31 (length 1771)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_32 (length 1650)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_33 (length 1635)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_34 (length 1617)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_35 (length 1608)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_36 (length 1607)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_37 (length 1498)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_38 (length 1495)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_39 (length 1470)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_40 (length 1468)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_41 (length 1460)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_42 (length 1447)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_43 (length 1388)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_44 (length 1381)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_45 (length 1349)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_46 (length 1341)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_47 (length 1339)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_48 (length 1295)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_49 (length 1294)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_50 (length 1287)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_51 (length 1279)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_52 (length 1253)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_53 (length 1236)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_54 (length 1186)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_55 (length 1146)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_56 (length 1129)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_57 (length 1102)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_58 (length 1097)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_59 (length 1096)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_60 (length 1063)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_61 (length 1054)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_62 (length 982)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_63 (length 789)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_64 (length 783)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_65 (length 751)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_66 (length 732)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_67 (length 719)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_68 (length 689)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_69 (length 685)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_70 (length 663)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_71 (length 652)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_72 (length 600)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_73 (length 585)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_74 (length 584)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_75 (length 577)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_76 (length 537)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_77 (length 529)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_78 (length 517)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_79 (length 516)
+SRR2838702/SRR2838702:Bactopia:SRR2838702_80 (length 515)
+

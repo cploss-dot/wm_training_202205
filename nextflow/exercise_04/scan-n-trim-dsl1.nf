@@ -1,6 +1,8 @@
 #!/usr/bin/env nextflow
 nextflow.enable.dsl = 1
 
+// DSL1 is not supported in Nextflow version 22.10.0 and beyond
+
 /*
 In this example we're going to recreate the scan and trim pipeline in Nextflow DSL1
 */

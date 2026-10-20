@@ -1,4 +1,5 @@
 #!/usr/bin/env nextflow
+// deprecated now
 nextflow.enable.dsl = 2
 
 /*
@@ -6,11 +7,7 @@ In this example we're going to mix Channels and Processes, but also highlight th
 of Channels. Meaning sometimes you don't get the order you expect.
 */
 
-// Create a channel of colored squares, but lets sort them
-my_square_ch = Channel.from( "red-square", "blue-square", "green-square" ).toSortedList().flatten()
-
-// Create a channel of 3 random numbers
-my_sleep_ch = Channel.from( 1..10 ).randomSample( 3 )
+// colors and shapes are not grouped together with sorted list, but order can still change
 
 // A Process to convert squares to triangles
 process make_triangle {
@@ -55,6 +52,12 @@ process merge_shapes {
 }
 
 workflow {
+    // moved inside workflow
+    // Create a channel of colored squares, but lets sort them
+    my_square_ch = Channel.from( "red-square", "blue-square", "green-square" ).toSortedList().flatten()
+    // Create a channel of 3 random numbers
+    my_sleep_ch = Channel.from( 1..10 ).randomSample( 3 )
+
     // The expectation is squares and triangles will be grouped by color
     make_triangle(my_square_ch, my_sleep_ch)
 
@@ -63,4 +66,6 @@ workflow {
     merge_shapes.out.merged.view()
 
     // Because we used sorted lists, the orders are always the same no matter the sleep time
+    // tosortedlist relies on alphabetical order for pairing, if that changes it stops working
+    // also tosortedlist needs every task in make_triangle completed to move forward (bottleneck)
 }

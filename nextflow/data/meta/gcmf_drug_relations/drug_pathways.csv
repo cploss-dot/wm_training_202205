@@ -1,0 +1,492 @@
+pubchem_id,drug_name,pathway
+2733526,Tamoxifen,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+2733526,Tamoxifen,REAC:RNA Polymerase II Transcription R-HSA-73857
+2733526,Tamoxifen,REAC:Signal Transduction R-HSA-162582
+2733526,Tamoxifen,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+2733526,Tamoxifen,REAC:Metabolism R-HSA-1430728
+2733526,Tamoxifen,REAC:Generic Transcription Pathway R-HSA-212436
+2733526,Tamoxifen,REAC:Hemostasis R-HSA-109582
+2733526,Tamoxifen,KEGG:Gastric cancer
+2733526,Tamoxifen,REAC:Gene Expression (Transcription) R-HSA-74160
+2733526,Tamoxifen,KEGG:Pathways in cancer
+2733526,Tamoxifen,REAC:Innate Immune System R-HSA-168249
+2733526,Tamoxifen,REAC:Circadian Clock R-HSA-400253
+2733526,Tamoxifen,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+2733526,Tamoxifen,KEGG:Hepatocellular carcinoma
+2733526,Tamoxifen,REAC:Immune System R-HSA-168256
+2733526,Tamoxifen,KEGG:PI3K-Akt signaling pathway
+5494449,Tozasertib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+5494449,Tozasertib,REAC:RNA Polymerase II Transcription R-HSA-73857
+5494449,Tozasertib,REAC:Signal Transduction R-HSA-162582
+5494449,Tozasertib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+5494449,Tozasertib,REAC:Metabolism R-HSA-1430728
+5494449,Tozasertib,REAC:Generic Transcription Pathway R-HSA-212436
+5494449,Tozasertib,KEGG:NOD-like receptor signaling pathway
+5494449,Tozasertib,REAC:Hemostasis R-HSA-109582
+5494449,Tozasertib,KEGG:Gastric cancer
+5494449,Tozasertib,REAC:Gene Expression (Transcription) R-HSA-74160
+5494449,Tozasertib,KEGG:Pathways in cancer
+5494449,Tozasertib,REAC:Innate Immune System R-HSA-168249
+5494449,Tozasertib,KEGG:Hepatocellular carcinoma
+5494449,Tozasertib,REAC:Immune System R-HSA-168256
+5494449,Tozasertib,KEGG:PI3K-Akt signaling pathway
+24821094,Ibrutinib,KEGG:Gastric cancer
+24821094,Ibrutinib,REAC:Gene Expression (Transcription) R-HSA-74160
+24821094,Ibrutinib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+24821094,Ibrutinib,KEGG:Pathways in cancer
+24821094,Ibrutinib,REAC:Metabolism Of RNA R-HSA-8953854
+24821094,Ibrutinib,REAC:Innate Immune System R-HSA-168249
+24821094,Ibrutinib,REAC:RNA Polymerase II Transcription R-HSA-73857
+24821094,Ibrutinib,REAC:Signal Transduction R-HSA-162582
+24821094,Ibrutinib,KEGG:Hepatocellular carcinoma
+24821094,Ibrutinib,REAC:Immune System R-HSA-168256
+24821094,Ibrutinib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+24821094,Ibrutinib,REAC:Metabolism R-HSA-1430728
+24821094,Ibrutinib,REAC:Generic Transcription Pathway R-HSA-212436
+24821094,Ibrutinib,KEGG:NOD-like receptor signaling pathway
+24821094,Ibrutinib,REAC:Hemostasis R-HSA-109582
+24821094,Ibrutinib,KEGG:PI3K-Akt signaling pathway
+36314,Paclitaxel,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+36314,Paclitaxel,REAC:Metabolism Of RNA R-HSA-8953854
+36314,Paclitaxel,REAC:RNA Polymerase II Transcription R-HSA-73857
+36314,Paclitaxel,REAC:Signal Transduction R-HSA-162582
+36314,Paclitaxel,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+36314,Paclitaxel,REAC:Metabolism R-HSA-1430728
+36314,Paclitaxel,REAC:Generic Transcription Pathway R-HSA-212436
+36314,Paclitaxel,KEGG:NOD-like receptor signaling pathway
+36314,Paclitaxel,REAC:Hemostasis R-HSA-109582
+36314,Paclitaxel,KEGG:Gastric cancer
+36314,Paclitaxel,REAC:Gene Expression (Transcription) R-HSA-74160
+36314,Paclitaxel,KEGG:Pathways in cancer
+36314,Paclitaxel,REAC:Innate Immune System R-HSA-168249
+36314,Paclitaxel,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+36314,Paclitaxel,KEGG:Hepatocellular carcinoma
+36314,Paclitaxel,REAC:Immune System R-HSA-168256
+36314,Paclitaxel,KEGG:PI3K-Akt signaling pathway
+6450551,Axitinib,KEGG:Gastric cancer
+6450551,Axitinib,REAC:Gene Expression (Transcription) R-HSA-74160
+6450551,Axitinib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+6450551,Axitinib,KEGG:Pathways in cancer
+6450551,Axitinib,REAC:Innate Immune System R-HSA-168249
+6450551,Axitinib,REAC:Circadian Clock R-HSA-400253
+6450551,Axitinib,REAC:RNA Polymerase II Transcription R-HSA-73857
+6450551,Axitinib,REAC:Signal Transduction R-HSA-162582
+6450551,Axitinib,KEGG:Hepatocellular carcinoma
+6450551,Axitinib,REAC:Immune System R-HSA-168256
+6450551,Axitinib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+6450551,Axitinib,REAC:Metabolism R-HSA-1430728
+6450551,Axitinib,REAC:Generic Transcription Pathway R-HSA-212436
+6450551,Axitinib,REAC:Hemostasis R-HSA-109582
+6450551,Axitinib,KEGG:PI3K-Akt signaling pathway
+9933475,Cediranib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+9933475,Cediranib,REAC:RNA Polymerase II Transcription R-HSA-73857
+9933475,Cediranib,REAC:Signal Transduction R-HSA-162582
+9933475,Cediranib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+9933475,Cediranib,REAC:Metabolism R-HSA-1430728
+9933475,Cediranib,REAC:Generic Transcription Pathway R-HSA-212436
+9933475,Cediranib,REAC:Hemostasis R-HSA-109582
+9933475,Cediranib,KEGG:Gastric cancer
+9933475,Cediranib,REAC:Gene Expression (Transcription) R-HSA-74160
+9933475,Cediranib,KEGG:Pathways in cancer
+9933475,Cediranib,REAC:Innate Immune System R-HSA-168249
+9933475,Cediranib,KEGG:Hepatocellular carcinoma
+9933475,Cediranib,REAC:Immune System R-HSA-168256
+9933475,Cediranib,KEGG:PI3K-Akt signaling pathway
+176870,Erlotinib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+176870,Erlotinib,REAC:Metabolism Of RNA R-HSA-8953854
+176870,Erlotinib,REAC:RNA Polymerase II Transcription R-HSA-73857
+176870,Erlotinib,REAC:Signal Transduction R-HSA-162582
+176870,Erlotinib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+176870,Erlotinib,REAC:Metabolism R-HSA-1430728
+176870,Erlotinib,REAC:Generic Transcription Pathway R-HSA-212436
+176870,Erlotinib,KEGG:NOD-like receptor signaling pathway
+176870,Erlotinib,REAC:Hemostasis R-HSA-109582
+176870,Erlotinib,KEGG:Gastric cancer
+176870,Erlotinib,REAC:Gene Expression (Transcription) R-HSA-74160
+176870,Erlotinib,REAC:Processing Of Capped Intron-Containing Pre-mRNA R-HSA-72203
+176870,Erlotinib,KEGG:Pathways in cancer
+176870,Erlotinib,REAC:Innate Immune System R-HSA-168249
+176870,Erlotinib,KEGG:Hepatocellular carcinoma
+176870,Erlotinib,REAC:Immune System R-HSA-168256
+176870,Erlotinib,KEGG:PI3K-Akt signaling pathway
+11977753,Dactolisib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+11977753,Dactolisib,REAC:Metabolism Of RNA R-HSA-8953854
+11977753,Dactolisib,REAC:RNA Polymerase II Transcription R-HSA-73857
+11977753,Dactolisib,REAC:Signal Transduction R-HSA-162582
+11977753,Dactolisib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+11977753,Dactolisib,REAC:Metabolism R-HSA-1430728
+11977753,Dactolisib,REAC:Generic Transcription Pathway R-HSA-212436
+11977753,Dactolisib,REAC:Hemostasis R-HSA-109582
+11977753,Dactolisib,KEGG:Gastric cancer
+11977753,Dactolisib,REAC:Gene Expression (Transcription) R-HSA-74160
+11977753,Dactolisib,KEGG:Pathways in cancer
+11977753,Dactolisib,REAC:Innate Immune System R-HSA-168249
+11977753,Dactolisib,REAC:Circadian Clock R-HSA-400253
+11977753,Dactolisib,KEGG:Hepatocellular carcinoma
+11977753,Dactolisib,REAC:Immune System R-HSA-168256
+11977753,Dactolisib,KEGG:PI3K-Akt signaling pathway
+11977753,BEZ235,KEGG:Gastric cancer
+11977753,BEZ235,REAC:Gene Expression (Transcription) R-HSA-74160
+11977753,BEZ235,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+11977753,BEZ235,KEGG:Pathways in cancer
+11977753,BEZ235,REAC:Innate Immune System R-HSA-168249
+11977753,BEZ235,REAC:RNA Polymerase II Transcription R-HSA-73857
+11977753,BEZ235,REAC:Signal Transduction R-HSA-162582
+11977753,BEZ235,KEGG:Hepatocellular carcinoma
+11977753,BEZ235,REAC:Immune System R-HSA-168256
+11977753,BEZ235,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+11977753,BEZ235,REAC:Metabolism R-HSA-1430728
+11977753,BEZ235,REAC:Generic Transcription Pathway R-HSA-212436
+11977753,BEZ235,REAC:Hemostasis R-HSA-109582
+11977753,BEZ235,KEGG:PI3K-Akt signaling pathway
+44137675,AZD6482,KEGG:Gastric cancer
+44137675,AZD6482,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+44137675,AZD6482,KEGG:Pathways in cancer
+44137675,AZD6482,REAC:Innate Immune System R-HSA-168249
+44137675,AZD6482,REAC:Signal Transduction R-HSA-162582
+44137675,AZD6482,KEGG:Hepatocellular carcinoma
+44137675,AZD6482,REAC:Immune System R-HSA-168256
+44137675,AZD6482,REAC:Metabolism R-HSA-1430728
+44137675,AZD6482,REAC:Hemostasis R-HSA-109582
+44137675,AZD6482,KEGG:PI3K-Akt signaling pathway
+444795,Tretinoin,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+444795,Tretinoin,REAC:Metabolism Of RNA R-HSA-8953854
+444795,Tretinoin,REAC:RNA Polymerase II Transcription R-HSA-73857
+444795,Tretinoin,REAC:Signal Transduction R-HSA-162582
+444795,Tretinoin,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+444795,Tretinoin,REAC:Metabolism R-HSA-1430728
+444795,Tretinoin,REAC:Generic Transcription Pathway R-HSA-212436
+444795,Tretinoin,KEGG:NOD-like receptor signaling pathway
+444795,Tretinoin,REAC:Hemostasis R-HSA-109582
+444795,Tretinoin,KEGG:Gastric cancer
+444795,Tretinoin,REAC:Gene Expression (Transcription) R-HSA-74160
+444795,Tretinoin,REAC:Processing Of Capped Intron-Containing Pre-mRNA R-HSA-72203
+444795,Tretinoin,KEGG:Pathways in cancer
+444795,Tretinoin,REAC:Innate Immune System R-HSA-168249
+444795,Tretinoin,REAC:Circadian Clock R-HSA-400253
+444795,Tretinoin,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+444795,Tretinoin,KEGG:Hepatocellular carcinoma
+444795,Tretinoin,REAC:Immune System R-HSA-168256
+444795,Tretinoin,KEGG:PI3K-Akt signaling pathway
+123631,Gefitinib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+123631,Gefitinib,REAC:Metabolism Of RNA R-HSA-8953854
+123631,Gefitinib,REAC:RNA Polymerase II Transcription R-HSA-73857
+123631,Gefitinib,REAC:Signal Transduction R-HSA-162582
+123631,Gefitinib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+123631,Gefitinib,REAC:Metabolism R-HSA-1430728
+123631,Gefitinib,REAC:Generic Transcription Pathway R-HSA-212436
+123631,Gefitinib,KEGG:NOD-like receptor signaling pathway
+123631,Gefitinib,REAC:Hemostasis R-HSA-109582
+123631,Gefitinib,KEGG:Gastric cancer
+123631,Gefitinib,REAC:Gene Expression (Transcription) R-HSA-74160
+123631,Gefitinib,REAC:Processing Of Capped Intron-Containing Pre-mRNA R-HSA-72203
+123631,Gefitinib,KEGG:Pathways in cancer
+123631,Gefitinib,REAC:Innate Immune System R-HSA-168249
+123631,Gefitinib,REAC:Circadian Clock R-HSA-400253
+123631,Gefitinib,KEGG:Hepatocellular carcinoma
+123631,Gefitinib,REAC:Immune System R-HSA-168256
+123631,Gefitinib,KEGG:PI3K-Akt signaling pathway
+24771867,Alisertib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+24771867,Alisertib,REAC:Metabolism Of RNA R-HSA-8953854
+24771867,Alisertib,REAC:RNA Polymerase II Transcription R-HSA-73857
+24771867,Alisertib,REAC:Signal Transduction R-HSA-162582
+24771867,Alisertib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+24771867,Alisertib,REAC:Metabolism R-HSA-1430728
+24771867,Alisertib,REAC:Generic Transcription Pathway R-HSA-212436
+24771867,Alisertib,REAC:Hemostasis R-HSA-109582
+24771867,Alisertib,KEGG:Gastric cancer
+24771867,Alisertib,REAC:Gene Expression (Transcription) R-HSA-74160
+24771867,Alisertib,KEGG:Pathways in cancer
+24771867,Alisertib,REAC:Innate Immune System R-HSA-168249
+24771867,Alisertib,KEGG:Hepatocellular carcinoma
+24771867,Alisertib,REAC:Immune System R-HSA-168256
+24771867,Alisertib,KEGG:PI3K-Akt signaling pathway
+3062316,Dasatinib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+3062316,Dasatinib,REAC:RNA Polymerase II Transcription R-HSA-73857
+3062316,Dasatinib,REAC:Signal Transduction R-HSA-162582
+3062316,Dasatinib,REAC:Metabolism R-HSA-1430728
+3062316,Dasatinib,REAC:Generic Transcription Pathway R-HSA-212436
+3062316,Dasatinib,REAC:Hemostasis R-HSA-109582
+3062316,Dasatinib,KEGG:Gastric cancer
+3062316,Dasatinib,REAC:Gene Expression (Transcription) R-HSA-74160
+3062316,Dasatinib,KEGG:Pathways in cancer
+3062316,Dasatinib,REAC:Innate Immune System R-HSA-168249
+3062316,Dasatinib,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+3062316,Dasatinib,KEGG:Hepatocellular carcinoma
+3062316,Dasatinib,REAC:Immune System R-HSA-168256
+3062316,Dasatinib,KEGG:PI3K-Akt signaling pathway
+216239,Sorafenib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+216239,Sorafenib,REAC:Metabolism Of RNA R-HSA-8953854
+216239,Sorafenib,REAC:RNA Polymerase II Transcription R-HSA-73857
+216239,Sorafenib,REAC:Signal Transduction R-HSA-162582
+216239,Sorafenib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+216239,Sorafenib,REAC:Metabolism R-HSA-1430728
+216239,Sorafenib,REAC:Generic Transcription Pathway R-HSA-212436
+216239,Sorafenib,KEGG:NOD-like receptor signaling pathway
+216239,Sorafenib,REAC:Hemostasis R-HSA-109582
+216239,Sorafenib,KEGG:Gastric cancer
+216239,Sorafenib,REAC:Gene Expression (Transcription) R-HSA-74160
+216239,Sorafenib,KEGG:Pathways in cancer
+216239,Sorafenib,REAC:Innate Immune System R-HSA-168249
+216239,Sorafenib,REAC:Circadian Clock R-HSA-400253
+216239,Sorafenib,KEGG:Hepatocellular carcinoma
+216239,Sorafenib,REAC:Immune System R-HSA-168256
+216239,Sorafenib,KEGG:PI3K-Akt signaling pathway
+5284616,Rapamycin,KEGG:Gastric cancer
+5284616,Rapamycin,REAC:Gene Expression (Transcription) R-HSA-74160
+5284616,Rapamycin,REAC:Processing Of Capped Intron-Containing Pre-mRNA R-HSA-72203
+5284616,Rapamycin,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+5284616,Rapamycin,KEGG:Pathways in cancer
+5284616,Rapamycin,REAC:Metabolism Of RNA R-HSA-8953854
+5284616,Rapamycin,REAC:Innate Immune System R-HSA-168249
+5284616,Rapamycin,REAC:RNA Polymerase II Transcription R-HSA-73857
+5284616,Rapamycin,REAC:Signal Transduction R-HSA-162582
+5284616,Rapamycin,KEGG:Hepatocellular carcinoma
+5284616,Rapamycin,REAC:Immune System R-HSA-168256
+5284616,Rapamycin,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+5284616,Rapamycin,REAC:Metabolism R-HSA-1430728
+5284616,Rapamycin,REAC:Generic Transcription Pathway R-HSA-212436
+5284616,Rapamycin,KEGG:NOD-like receptor signaling pathway
+5284616,Rapamycin,REAC:Hemostasis R-HSA-109582
+5284616,Rapamycin,KEGG:PI3K-Akt signaling pathway
+16720766,Pevonedistat,REAC:Signal Transduction R-HSA-162582
+16720766,Pevonedistat,REAC:Immune System R-HSA-168256
+16720766,Pevonedistat,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+16720766,Pevonedistat,REAC:Innate Immune System R-HSA-168249
+6505803,Tanespimycin,KEGG:Gastric cancer
+6505803,Tanespimycin,REAC:Gene Expression (Transcription) R-HSA-74160
+6505803,Tanespimycin,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+6505803,Tanespimycin,KEGG:Pathways in cancer
+6505803,Tanespimycin,REAC:Innate Immune System R-HSA-168249
+6505803,Tanespimycin,REAC:Circadian Clock R-HSA-400253
+6505803,Tanespimycin,REAC:RNA Polymerase II Transcription R-HSA-73857
+6505803,Tanespimycin,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+6505803,Tanespimycin,REAC:Signal Transduction R-HSA-162582
+6505803,Tanespimycin,KEGG:Hepatocellular carcinoma
+6505803,Tanespimycin,REAC:Immune System R-HSA-168256
+6505803,Tanespimycin,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+6505803,Tanespimycin,REAC:Metabolism R-HSA-1430728
+6505803,Tanespimycin,REAC:Generic Transcription Pathway R-HSA-212436
+6505803,Tanespimycin,KEGG:NOD-like receptor signaling pathway
+6505803,Tanespimycin,REAC:Hemostasis R-HSA-109582
+6505803,Tanespimycin,KEGG:PI3K-Akt signaling pathway
+3062316,Dasatinib,REAC:Metabolism Of RNA R-HSA-8953854
+3062316,Dasatinib,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+3062316,Dasatinib,KEGG:NOD-like receptor signaling pathway
+60750,Gemcitabine,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+60750,Gemcitabine,REAC:Metabolism Of RNA R-HSA-8953854
+60750,Gemcitabine,REAC:RNA Polymerase II Transcription R-HSA-73857
+60750,Gemcitabine,REAC:Signal Transduction R-HSA-162582
+60750,Gemcitabine,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+60750,Gemcitabine,REAC:Metabolism R-HSA-1430728
+60750,Gemcitabine,REAC:Generic Transcription Pathway R-HSA-212436
+60750,Gemcitabine,KEGG:NOD-like receptor signaling pathway
+60750,Gemcitabine,REAC:Hemostasis R-HSA-109582
+60750,Gemcitabine,KEGG:Gastric cancer
+60750,Gemcitabine,REAC:Gene Expression (Transcription) R-HSA-74160
+60750,Gemcitabine,REAC:Processing Of Capped Intron-Containing Pre-mRNA R-HSA-72203
+60750,Gemcitabine,KEGG:Pathways in cancer
+60750,Gemcitabine,REAC:Innate Immune System R-HSA-168249
+60750,Gemcitabine,REAC:Circadian Clock R-HSA-400253
+60750,Gemcitabine,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+60750,Gemcitabine,KEGG:Hepatocellular carcinoma
+60750,Gemcitabine,REAC:Immune System R-HSA-168256
+60750,Gemcitabine,KEGG:PI3K-Akt signaling pathway
+135398738,Dacarbazine,REAC:RNA Polymerase II Transcription R-HSA-73857
+135398738,Dacarbazine,KEGG:Gastric cancer
+135398738,Dacarbazine,REAC:Gene Expression (Transcription) R-HSA-74160
+135398738,Dacarbazine,REAC:Signal Transduction R-HSA-162582
+135398738,Dacarbazine,KEGG:Hepatocellular carcinoma
+135398738,Dacarbazine,REAC:Immune System R-HSA-168256
+135398738,Dacarbazine,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+135398738,Dacarbazine,KEGG:Pathways in cancer
+135398738,Dacarbazine,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+135398738,Dacarbazine,REAC:Metabolism R-HSA-1430728
+135398738,Dacarbazine,REAC:Generic Transcription Pathway R-HSA-212436
+135398738,Dacarbazine,REAC:Innate Immune System R-HSA-168249
+135398738,Dacarbazine,KEGG:NOD-like receptor signaling pathway
+135398738,Dacarbazine,REAC:Hemostasis R-HSA-109582
+135398738,Dacarbazine,KEGG:PI3K-Akt signaling pathway
+24785538,BMS-754807,KEGG:Gastric cancer
+24785538,BMS-754807,REAC:Gene Expression (Transcription) R-HSA-74160
+24785538,BMS-754807,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+24785538,BMS-754807,KEGG:Pathways in cancer
+24785538,BMS-754807,REAC:Metabolism Of RNA R-HSA-8953854
+24785538,BMS-754807,REAC:RNA Polymerase II Transcription R-HSA-73857
+24785538,BMS-754807,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+24785538,BMS-754807,REAC:Signal Transduction R-HSA-162582
+24785538,BMS-754807,KEGG:Hepatocellular carcinoma
+24785538,BMS-754807,REAC:Immune System R-HSA-168256
+24785538,BMS-754807,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+24785538,BMS-754807,REAC:Metabolism R-HSA-1430728
+24785538,BMS-754807,REAC:Generic Transcription Pathway R-HSA-212436
+24785538,BMS-754807,REAC:Hemostasis R-HSA-109582
+24785538,BMS-754807,KEGG:PI3K-Akt signaling pathway
+9926054,BMS-345541,KEGG:Gastric cancer
+9926054,BMS-345541,REAC:Gene Expression (Transcription) R-HSA-74160
+9926054,BMS-345541,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+9926054,BMS-345541,KEGG:Pathways in cancer
+9926054,BMS-345541,REAC:Metabolism Of RNA R-HSA-8953854
+9926054,BMS-345541,REAC:Innate Immune System R-HSA-168249
+9926054,BMS-345541,REAC:Circadian Clock R-HSA-400253
+9926054,BMS-345541,REAC:RNA Polymerase II Transcription R-HSA-73857
+9926054,BMS-345541,REAC:Signal Transduction R-HSA-162582
+9926054,BMS-345541,REAC:Immune System R-HSA-168256
+9926054,BMS-345541,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+9926054,BMS-345541,REAC:Metabolism R-HSA-1430728
+9926054,BMS-345541,REAC:Generic Transcription Pathway R-HSA-212436
+9926054,BMS-345541,KEGG:NOD-like receptor signaling pathway
+9926054,BMS-345541,REAC:Hemostasis R-HSA-109582
+9926054,BMS-345541,KEGG:PI3K-Akt signaling pathway
+6918736,rigosertib,KEGG:Gastric cancer
+6918736,rigosertib,REAC:Gene Expression (Transcription) R-HSA-74160
+6918736,rigosertib,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+6918736,rigosertib,KEGG:Pathways in cancer
+6918736,rigosertib,REAC:Innate Immune System R-HSA-168249
+6918736,rigosertib,REAC:RNA Polymerase II Transcription R-HSA-73857
+6918736,rigosertib,REAC:Signal Transduction R-HSA-162582
+6918736,rigosertib,KEGG:Hepatocellular carcinoma
+6918736,rigosertib,REAC:Immune System R-HSA-168256
+6918736,rigosertib,REAC:Metabolism R-HSA-1430728
+6918736,rigosertib,REAC:Generic Transcription Pathway R-HSA-212436
+6918736,rigosertib,REAC:Hemostasis R-HSA-109582
+6918736,rigosertib,KEGG:PI3K-Akt signaling pathway
+10077130,vorapaxar,KEGG:Pathways in cancer
+10077130,vorapaxar,REAC:Signal Transduction R-HSA-162582
+10077130,vorapaxar,REAC:Hemostasis R-HSA-109582
+10077130,vorapaxar,KEGG:PI3K-Akt signaling pathway
+6914657,Daporinad,REAC:Circadian Clock R-HSA-400253
+6914657,Daporinad,REAC:Metabolism R-HSA-1430728
+6914657,Daporinad,REAC:Metabolism Of Vitamins And Cofactors R-HSA-196854
+6914657,Daporinad,KEGG:NOD-like receptor signaling pathway
+11228183,ABT-737,KEGG:Gastric cancer
+11228183,ABT-737,REAC:Gene Expression (Transcription) R-HSA-74160
+11228183,ABT-737,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+11228183,ABT-737,KEGG:Pathways in cancer
+11228183,ABT-737,REAC:Innate Immune System R-HSA-168249
+11228183,ABT-737,REAC:RNA Polymerase II Transcription R-HSA-73857
+11228183,ABT-737,REAC:Signal Transduction R-HSA-162582
+11228183,ABT-737,KEGG:Hepatocellular carcinoma
+11228183,ABT-737,REAC:Immune System R-HSA-168256
+11228183,ABT-737,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+11228183,ABT-737,REAC:Metabolism R-HSA-1430728
+11228183,ABT-737,REAC:Generic Transcription Pathway R-HSA-212436
+11228183,ABT-737,KEGG:NOD-like receptor signaling pathway
+11228183,ABT-737,REAC:Hemostasis R-HSA-109582
+11228183,ABT-737,KEGG:PI3K-Akt signaling pathway
+46224516,UNC0638,REAC:RNA Polymerase II Transcription R-HSA-73857
+46224516,UNC0638,REAC:Gene Expression (Transcription) R-HSA-74160
+46224516,UNC0638,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+46224516,UNC0638,REAC:Generic Transcription Pathway R-HSA-212436
+68289010,Savolitinib,KEGG:Pathways in cancer
+68289010,Savolitinib,REAC:Signal Transduction R-HSA-162582
+68289010,Savolitinib,KEGG:Gastric cancer
+68289010,Savolitinib,KEGG:Hepatocellular carcinoma
+68289010,Savolitinib,KEGG:PI3K-Akt signaling pathway
+11152667,AZD7762,REAC:RNA Polymerase II Transcription R-HSA-73857
+11152667,AZD7762,KEGG:Gastric cancer
+11152667,AZD7762,REAC:Gene Expression (Transcription) R-HSA-74160
+11152667,AZD7762,REAC:Signal Transduction R-HSA-162582
+11152667,AZD7762,KEGG:Hepatocellular carcinoma
+11152667,AZD7762,REAC:Immune System R-HSA-168256
+11152667,AZD7762,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+11152667,AZD7762,KEGG:Pathways in cancer
+11152667,AZD7762,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+11152667,AZD7762,REAC:Metabolism R-HSA-1430728
+11152667,AZD7762,REAC:Generic Transcription Pathway R-HSA-212436
+11152667,AZD7762,REAC:Innate Immune System R-HSA-168249
+11152667,AZD7762,REAC:Hemostasis R-HSA-109582
+11152667,AZD7762,KEGG:PI3K-Akt signaling pathway
+156422,Doramapimod,KEGG:Gastric cancer
+156422,Doramapimod,REAC:Gene Expression (Transcription) R-HSA-74160
+156422,Doramapimod,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+156422,Doramapimod,KEGG:Pathways in cancer
+156422,Doramapimod,REAC:Metabolism Of RNA R-HSA-8953854
+156422,Doramapimod,REAC:Innate Immune System R-HSA-168249
+156422,Doramapimod,REAC:RNA Polymerase II Transcription R-HSA-73857
+156422,Doramapimod,REAC:Signal Transduction R-HSA-162582
+156422,Doramapimod,KEGG:Hepatocellular carcinoma
+156422,Doramapimod,REAC:Immune System R-HSA-168256
+156422,Doramapimod,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+156422,Doramapimod,REAC:Metabolism R-HSA-1430728
+156422,Doramapimod,REAC:Generic Transcription Pathway R-HSA-212436
+156422,Doramapimod,KEGG:NOD-like receptor signaling pathway
+156422,Doramapimod,REAC:Hemostasis R-HSA-109582
+156422,Doramapimod,KEGG:PI3K-Akt signaling pathway
+44137675,AZD6482,REAC:Gene Expression (Transcription) R-HSA-74160
+44137675,AZD6482,REAC:Circadian Clock R-HSA-400253
+44137675,AZD6482,REAC:RNA Polymerase II Transcription R-HSA-73857
+44137675,AZD6482,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+44137675,AZD6482,REAC:Generic Transcription Pathway R-HSA-212436
+135398516,OSI-027,KEGG:Gastric cancer
+135398516,OSI-027,REAC:Gene Expression (Transcription) R-HSA-74160
+135398516,OSI-027,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+135398516,OSI-027,KEGG:Pathways in cancer
+135398516,OSI-027,REAC:Innate Immune System R-HSA-168249
+135398516,OSI-027,REAC:RNA Polymerase II Transcription R-HSA-73857
+135398516,OSI-027,REAC:Signal Transduction R-HSA-162582
+135398516,OSI-027,KEGG:Hepatocellular carcinoma
+135398516,OSI-027,REAC:Immune System R-HSA-168256
+135398516,OSI-027,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+135398516,OSI-027,REAC:Metabolism R-HSA-1430728
+135398516,OSI-027,REAC:Generic Transcription Pathway R-HSA-212436
+135398516,OSI-027,REAC:Hemostasis R-HSA-109582
+135398516,OSI-027,KEGG:PI3K-Akt signaling pathway
+117072552,GSK591,REAC:RNA Polymerase II Transcription R-HSA-73857
+117072552,GSK591,REAC:Gene Expression (Transcription) R-HSA-74160
+117072552,GSK591,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+117072552,GSK591,REAC:Generic Transcription Pathway R-HSA-212436
+117072552,GSK591,REAC:Metabolism Of RNA R-HSA-8953854
+462382,MG-132,REAC:Gene Expression (Transcription) R-HSA-74160
+462382,MG-132,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+462382,MG-132,REAC:Metabolism Of RNA R-HSA-8953854
+462382,MG-132,REAC:Innate Immune System R-HSA-168249
+462382,MG-132,REAC:RNA Polymerase II Transcription R-HSA-73857
+462382,MG-132,REAC:Signal Transduction R-HSA-162582
+462382,MG-132,REAC:Immune System R-HSA-168256
+462382,MG-132,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+462382,MG-132,REAC:Metabolism R-HSA-1430728
+462382,MG-132,REAC:Generic Transcription Pathway R-HSA-212436
+11433190,Rebemadlin,REAC:RNA Polymerase II Transcription R-HSA-73857
+11433190,Rebemadlin,KEGG:Gastric cancer
+11433190,Rebemadlin,REAC:Gene Expression (Transcription) R-HSA-74160
+11433190,Rebemadlin,REAC:Signal Transduction R-HSA-162582
+11433190,Rebemadlin,KEGG:Hepatocellular carcinoma
+11433190,Rebemadlin,REAC:Immune System R-HSA-168256
+11433190,Rebemadlin,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+11433190,Rebemadlin,KEGG:Pathways in cancer
+11433190,Rebemadlin,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+11433190,Rebemadlin,REAC:Generic Transcription Pathway R-HSA-212436
+11433190,Rebemadlin,REAC:Innate Immune System R-HSA-168249
+11433190,Rebemadlin,REAC:Hemostasis R-HSA-109582
+11433190,Rebemadlin,KEGG:PI3K-Akt signaling pathway
+11433190,Nutlin 3a,REAC:RNA Polymerase II Transcription R-HSA-73857
+11433190,Nutlin 3a,KEGG:Gastric cancer
+11433190,Nutlin 3a,REAC:Gene Expression (Transcription) R-HSA-74160
+11433190,Nutlin 3a,REAC:Signal Transduction R-HSA-162582
+11433190,Nutlin 3a,KEGG:Hepatocellular carcinoma
+11433190,Nutlin 3a,REAC:Immune System R-HSA-168256
+11433190,Nutlin 3a,REAC:Cytokine Signaling In Immune System R-HSA-1280215
+11433190,Nutlin 3a,KEGG:Pathways in cancer
+11433190,Nutlin 3a,REAC:Transcriptional Regulation By TP53 R-HSA-3700989
+11433190,Nutlin 3a,REAC:Generic Transcription Pathway R-HSA-212436
+11433190,Nutlin 3a,REAC:Innate Immune System R-HSA-168249
+11433190,Nutlin 3a,REAC:Hemostasis R-HSA-109582
+11433190,Nutlin 3a,KEGG:PI3K-Akt signaling pathway
+44632017,YK-4-279,REAC:Immune System R-HSA-168256
+44632017,YK-4-279,REAC:Processing Of Capped Intron-Containing Pre-mRNA R-HSA-72203
+44632017,YK-4-279,REAC:Innate Immune System R-HSA-168249
+44632017,YK-4-279,REAC:Metabolism Of RNA R-HSA-8953854
+637858,Piperlongumine,KEGG:Pathways in cancer
+637858,Piperlongumine,REAC:Metabolism R-HSA-1430728
+637858,Piperlongumine,REAC:Immune System R-HSA-168256
+637858,Piperlongumine,KEGG:Hepatocellular carcinoma
+637858,Piperlongumine,REAC:Innate Immune System R-HSA-168249
+10385095,Telomerase Inhibitor IX,KEGG:Pathways in cancer
+10385095,Telomerase Inhibitor IX,KEGG:Hepatocellular carcinoma
+10385095,Telomerase Inhibitor IX,REAC:Signal Transduction R-HSA-162582
+10385095,Telomerase Inhibitor IX,KEGG:Gastric cancer
+9927531,BIBR-1532,KEGG:Pathways in cancer
+9927531,BIBR-1532,KEGG:Hepatocellular carcinoma
+9927531,BIBR-1532,REAC:Signal Transduction R-HSA-162582
+9927531,BIBR-1532,KEGG:Gastric cancer

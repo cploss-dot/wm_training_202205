@@ -1,0 +1,29 @@
+2026-10-19 22:19:26	2.2s	wise_gilbert	OK	3c2cdc9823c2b4636e5e3e73e223878099ff5dc9	c39ecb01-c8a4-4e06-b108-4ca5166618dc	nextflow run nextflow-io/hello
+2026-10-19 22:30:50	11m 59s	disturbed_woese	ERR	29fb7419d7bf1b11e9d44590c0833b02b978ec5e	6c377db4-2dc5-49f1-8f09-82cbb42bc744	nextflow run bactopia/bactopia -profile test,docker
+2026-10-19 22:50:20	10m 17s	lethal_brazil	OK	6e420c1cc2f1be2907627d9b2b3aca77bf622603	0aada53b-e5b2-4592-9079-47020365c01f	nextflow run nf-core/drugresponseeval -profile test,docker
+2026-10-19 23:45:47	-	silly_golick	-	ce7fde1d530ffa9c5787cdd32efafd50	2007ec5b-1f97-497d-86c1-2e68ce9e5c61	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex1.nf
+2026-10-19 23:58:15	2.2s	shrivelled_kimura	OK	0121fd883a29fd8f26a462414c9c46f6	6cd57f24-3984-4ff0-9bca-634a10ba8473	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex1.nf
+2026-10-20 17:35:50	2.7s	angry_williams	OK	36a68567209fb0e2e9fcbf5fa6eafaeb	f33fa254-43f7-4e20-9da9-a5d3c60e5313	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex1.nf
+2026-10-20 17:37:44	-	backstabbing_einstein	-	01787482a6b010e40056afdcef410718	8f0b1721-bdf7-4d6e-808a-fe6cf6b237b7	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex2.nf
+2026-10-20 17:47:18	11.4s	drunk_kimura	OK	0a1c413173cf678235607c3145fb1f34	46386d20-d97a-4f5e-bda9-aa7ea617c059	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex2.nf
+2026-10-20 17:47:57	12.9s	cheeky_hirsch	OK	0a1c413173cf678235607c3145fb1f34	b5366b08-c965-43f0-bb87-870b0ff10786	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex2.nf
+2026-10-20 18:04:46	-	confident_darwin	-	6947e43df95875460336caaf8515f66e	18184d2d-98f1-43ff-90d3-54403e1ca1e9	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex3.nf
+2026-10-20 18:05:33	12s	kickass_maxwell	OK	a490b4b1f8010ef0e7f29306cb3f0bdc	d9745e43-8599-4097-91be-f4ac7de7577a	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex3.nf
+2026-10-20 18:06:29	12.9s	spontaneous_golick	OK	a490b4b1f8010ef0e7f29306cb3f0bdc	51a773f0-4a82-4471-9bbe-9c5eec755fc1	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex3.nf
+2026-10-20 18:13:42	12.2s	festering_nightingale	OK	6d5f8936fabdb3e6b6e1d9b9441bec7e	1ae314df-caf0-4408-86b4-467ca26cd902	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex4.nf
+2026-10-20 18:15:49	12.6s	big_ramachandran	OK	6d5f8936fabdb3e6b6e1d9b9441bec7e	4b64e9e8-969b-4907-bd26-833eec49bd4a	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex4.nf
+2026-10-20 18:27:40	12.6s	jolly_lichterman	OK	6d5f8936fabdb3e6b6e1d9b9441bec7e	43905225-b65b-4660-be01-01b8ba2c49da	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_03/nextflow_ex4.nf
+2026-10-20 18:29:48	-	mad_blackwell	-	271b352b085809cc3e5fafa832e3dc89	afd35792-b797-4d85-b60b-f2094862d89a	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl1.nf
+2026-10-20 21:37:57	-	compassionate_golick	-	b641a6c4051c9799b2f3da0e5cd8f701	72dc8222-ff7d-47ae-a569-cc479e6f0763	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 21:40:36	-	ecstatic_pesquet	-	0bb89a96788a8fa2f783630726400499	5b10cd1a-a744-43bb-8afa-22ef695e2f67	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 21:41:35	-	nasty_brahmagupta	-	92a6e7122d5248323846ed7b14f9ce8d	94e64399-f342-48fd-89b3-6ce2701d7dfe	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 21:42:17	-	infallible_sax	-	92a6e7122d5248323846ed7b14f9ce8d	ab809807-b939-4ec5-afd2-9fe01144f554	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 21:43:00	-	elated_mccarthy	-	484f6da478bd050af049b9928f506539	be1c61cb-92a8-4aa7-b670-0269df936932	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 21:52:38	-	pedantic_curran	-	484f6da478bd050af049b9928f506539	752d0314-4a79-41c8-93e8-c53178c1bd6c	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 22:03:46	-	dreamy_ritchie	-	484f6da478bd050af049b9928f506539	54a98b4a-4bac-4997-b248-52c244df41e6	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 22:07:04	-	kickass_aryabhata	-	484f6da478bd050af049b9928f506539	9795653c-41c7-442f-8287-c4b51063466e	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 22:07:52	-	berserk_bartik	-	484f6da478bd050af049b9928f506539	07a43750-1698-4af2-844c-480278667a17	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 22:08:20	-	small_chandrasekhar	-	484f6da478bd050af049b9928f506539	14aaaa5e-d667-41a2-bc90-72f3c0cd7c20	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 22:10:06	-	disturbed_leakey	-	484f6da478bd050af049b9928f506539	0fe7c2de-bc99-4750-a92c-29b6596928a5	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 22:24:53	14.2s	pensive_stone	OK	484f6da478bd050af049b9928f506539	fb4dbbd1-9ca1-4807-85e1-733810850f46	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf
+2026-10-20 22:35:37	9.7s	loving_volhard	OK	484f6da478bd050af049b9928f506539	5994d7ef-3d8c-40fd-b824-540781bb6605	nextflow run /home/chloe_ploss/wm_training/nextflow/exercise_04/scan-n-trim-dsl2.nf --window_size=20

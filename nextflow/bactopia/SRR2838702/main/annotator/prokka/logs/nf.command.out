@@ -1,0 +1,37 @@
+[tbl2asn-forever] Found Prokka input, correcting dates in .gbf|.sqn files.
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.gbf
+[tbl2asn-forever] Correcting dates in SRR2838702/SRR2838702.sqn
+[tbl2asn-forever] Dates changed from 01-JAN-2019 to 19-OCT-2026
+
+
+Building a new DB, current time: 10/19/2026 22:42:47
+New DB name:   /home/chloe_ploss/wm_training/nextflow/work/6c/29ae1284d1f0d2c82ae7065c334230/blastdb/SRR2838702.fna
+New DB title:  Assembled contigs for SRR2838702
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 80 sequences in 0.004179 seconds.
+
+
+
+
+Building a new DB, current time: 10/19/2026 22:42:47
+New DB name:   /home/chloe_ploss/wm_training/nextflow/work/6c/29ae1284d1f0d2c82ae7065c334230/blastdb/SRR2838702.ffn
+New DB title:  Predicted genes sequences for SRR2838702
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 107 sequences in 0.00409794 seconds.
+
+
+
+
+Building a new DB, current time: 10/19/2026 22:42:47
+New DB name:   /home/chloe_ploss/wm_training/nextflow/work/6c/29ae1284d1f0d2c82ae7065c334230/blastdb/SRR2838702.faa
+New DB title:  Predicted protein sequences for SRR2838702
+Sequence type: Protein
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 98 sequences in 0.00268292 seconds.
+
+
